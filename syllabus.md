@@ -40,7 +40,25 @@ What this course is not:
 * This is *_not_* a course on statistics. We won't cover the _statistical_ analysis of data. However, you'll find the material complementary: once data is in the correct form, most statistical tests are available in open-source packages and extremely simple to apply.
 * This is *_not_* a course on application development. However, we will incidentally cover many of the same fundamentals and serve as a strong foundation.
 
-## Textbooks
+## Reading and References
+All reading and references for this course are optional. If you can complete the homework and contribute to your group projects without them, feel free to. There are many resources, freely available and otherwise.
+
+That said, the quality of resources, especially the freely available ones, varies tremendously. There is a tremendous amount of bad advice, bad practices and just plain wrong information about coding and data on the internet.
+
+Here is a non-exhaustive list of resources that I recommend and will suggest readings from in class:
+* _Unix for the Beginning Mage_ by Joe Topjian (Freely available online.)
+* _git - the simple guide_ by Roger Dudler (Freely available here: https://rogerdudler.github.io/git-guide/)
+* _Think Python : How to Think Like a Computer Scientist_ By Downey, Allen B. (Get the 2nd edition. The 1st edition is written for Python 2, which is rather unlike Python 3)
+* _Pandas 1. x Cookbook : Practical Recipes for Scientific Computing, Time Series Analysis, and Exploratory Data Analysis Using Python_ by Harrison, Matt and Petrou, Theodore (I'll be using the 2nd edition to suggest reading. The 1st edition uses an older version of Pandas, but should be mostly applicable.)
+* _Practical SQL: A Beginner's Guide to Storytelling with Data_ by DeBarros, Anthony (I will use the 1st edition to suggest reading. However, a 2nd edition is coming out at the end of January. If you'd like to wait for its release, feel free to. We won't start SQL until after the midterm project.)
+
+Other resources that I recommend:
+* _Effective Pandas_ by Matt Harrison (An excellent read published after I selected textbooks for this course.)
+* The Python Documentation: https://docs.python.org/3.7/
+* The Pandas Documentation: https://pandas.pydata.org/docs/
+* The Postgres Documentation: https://www.postgresql.org/docs/
+* The BigQuery Documentation: https://cloud.google.com/bigquery
+
 ## Software
 ## Prerequisites
 
