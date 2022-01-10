@@ -30,6 +30,16 @@ for a limited time on Canvas.
 # Course Description and Requirements
 
 ## Overview
+This is a master's level course on Python, databases and big data. Our goal in this course is to learn the fundamental programming and data skills for working with data using a standard, modern tech stack. This is a foundational but fast-paced course; as such, we will move very quickly. We'll prefer practical applications over theoretical explorations.
+
+Though we'll be learning many tools in this course, we'll focus on the big picture. By the end of this course, you should have a conceptual understanding of the data ecosystem as well as the practical skills required to programmatically access, load and manipulate data.
+
+What this course is not:
+* This is *_not_* a course in computer science. We won't cover topics like designing and evaluating algorithms or the inner working of databases.
+* This is *_not_* a course on machine learning or AI. We won't cover machine learning algorithms. However, the material in this course is complementary: collecting, manipulating and maintaining data is a prerequisite to applied ML/AI.
+* This is *_not_* a course on statistics. We won't cover the _statistical_ analysis of data. However, you'll find the material complementary: once data is in the correct form, most statistical tests are available in open-source packages and extremely simple to apply.
+* This is *_not_* a course on application development. However, we will incidentally cover many of the same fundamentals and serve as a strong foundation.
+
 ## Textbooks
 ## Software
 ## Prerequisites
