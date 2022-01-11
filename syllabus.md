@@ -92,9 +92,34 @@ We'll set aside class time during group projects to work on them. It's essential
 
 ## Course Policies
 ### Grading
-### Homework Assignments
-### Group Projects and Group Project Presentations
+Grades will be based on:
+* Attendance (10%)
+* Homework Assignments (20%)
+* Midterm Group Project (30%)
+* Final Group Project (40%)
 
+I will use plus/minus grade categories when assigning final grades (i.e. A, A-, B+, B, B-,... F). Grades will be _not_ be curved. Please do not ask me about extra credit or extra work to improve
+your grade. None will be given.
+
+### Homework Assignments
+
+* There will be 8-12 homeworks assigned during the semester.
+* Homework will not be assigned during project weeks but may be due during them.
+* Due dates will be announced as homeworks is assigned. Homeworks will typically be due a week from when they are assigned.
+* Late homework will _not_ be accepted.
+* The _two_ lowest-scoring homeworks will be dropped to allow you some flexibility throughout the semester.
+* Howeworks will be submitted in _private_ Github repositories by submitting the link to Canvas and inviting the TAs. Homework solutions may not be made public.
+
+## Group Projects and Group Project Presentations
+* Students will form groups of around five students. (Sizes are subject to change based on enrollment.)
+* Students may opt to form different groups for the midterm and final projects.
+* Projects will be developed and submitted in public GitHub repositories. You are encouraged to share your projects.
+* Projects will be graded based on _both_ group and individual requirements. GitHub will allow us to see who makes which contributions.
+* Midterm Projects will be presented in class. Each group will have 3 minutes to present a lightning talk and 2 minutes of Q & A. (Presentation times are subject to change based on enrollment.)
+* Final Projects will be presented during the final exam time slot for the course. Each group will have 10 minutes to present their project and 5 minutes of Q & A. (Presentation times are subject to change based on enrollment.)
+* You must attend every group's presentation on presentation days, not just your own group's.
+* If you know in advance that you have a conflict with one of the presentation dates (e.g., due to travel or religious observance) or require accommodations, please see me as soon as possible to work out an alternative. 
+* If you are absent from the exam, you must notify me prior to the presentation at edwardkrueger@utexas.edu. Where advanced notification is not feasible, **the notification must be given by the end of the second day after the absence.** Non-excused absences will result in a zero for that portion of your grade.
 ---
 
 # University Disclosures and Policies
