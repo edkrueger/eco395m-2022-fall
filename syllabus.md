@@ -7,8 +7,7 @@ Course website: https://github.com/edkrueger/eco395m
 
 Class will meet Tuesday and Thursday **3:30pm - 5pm CT**.  
 Subject to the university's COVID-19 Executive Committee's recommendation, **_after January 31st_**, 2021, class will be held in person in **BRB 1.118**.  
-Until then, class will be held remotely via Zoom (link on Canvas). When we meet in person, recordings of in-class lectures will also be posted
-for a limited time on Canvas.  
+Until then, class will be held remotely via Zoom (link on Canvas). Recordings of lectures will be posted for a limited time on Canvas.  
 
 ## Instructor: Edward Krueger
 
