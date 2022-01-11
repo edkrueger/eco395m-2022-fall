@@ -72,6 +72,24 @@ There are no formal prerequisites for this course. However, success in this cour
 
 We will start from the beginning with Python. However, some slight exposure to programming is recommended to understand what you are signing up for. Programming is quite different from other skills you have acquired through your academic career.
 
+## How to Succeed in This Course
+
+### Durring Lectures
+Lectures will be fast-paced, and you must pay attention in class. It can be tempting to replicate every step I take and write the same code I write _while in the lecture_. I don't recommend this as you'll likely fall behind and miss out on new material. So it may be wise to consider not opening your computer at all during class.
+
+### Outside of Class
+If you'd like to go back and try to replicate the work I do in class, you will have a recording of the lectures. Your homework and group projects will provide you with an opportunity to do it yourself.
+
+After getting the big picture from lectures, the best way to learn to program is to do it. Attending lectures and completing the readings won't be sufficient. In fact, you should consider attempting the HWs first and consulting the readings if you need assistance.
+
+Please attend office hours.
+
+### During Group Projects
+
+A large part of the learning during this course will occur during group projects. You'll harden the skills you learned in class, learn new skills and learn how to work on real-world open-ended projects.
+
+We'll set aside class time during group projects to work on them. It's essential that you attend class during these times. It's the only opportunity you will have access to me, the TAs, and your group members _at the same time_. We'll provide advice on scoping your projects, help you make good technical choices and help you troubleshoot complex issues.
+
 ## Course Policies
 ### Grading
 ### Homework Assignments
