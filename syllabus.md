@@ -64,7 +64,7 @@ We will use a lot of free, open-source software in this course, including but no
 
 In addition, we'll use GitHub. The free plan will be sufficient for this course.
 
-Finally, we will use Google Cloud Platform (GCP). GCP charges by use of services but offers a $300 credit to new accounts. This _should_ be sufficient for this course. Costs _may_, in some circumstances, exceed the credit amount. We'll provide guidance in keeping costs under control in class.
+Finally, we will use Google Cloud Platform (GCP). GCP charges by use of services but offers a $300 credit to new accounts. This _should_ be sufficient for this course. Costs _may_, in some circumstances, exceed the credit amount. We'll provide guidance in keeping costs under control in class. _Please wait to redeem the credit until we instruct you to._
 
 ## Prerequisites
 
