@@ -160,3 +160,26 @@ Grad school is hard, even when we aren’t in the middle of a pandemic. Take car
 
 ---
 # Course Outline
+
+_This is far less reading than it appears to be. These books are far less dense than your typical textbook and contain many examples and sample outputs. Further, these books are largely intended as references. You don't need to read them word for word, but a quick read or skim will make them far more valuable references for when you are working on homework, group projects and future work._
+
+## Topic 1 Bash and Git
+Suggested Readings:
+Topjian: 2, 3, 4, 6 -- _not_ 3 Advanced, 4 Advanced, 6 Advanced)
+Dudler: All
+
+## Topic 2 Python and Pandas
+Suggested Readings:
+Downey: 1, 2, 3, 5 (skip recursion topics), 6 (skip recursion topics), 7, 8, 10, 11, 12, 14, 19 (skip Named Tuples), 20
+Harrison and Petrou: 1, 2, 3 (pg 81-95), 4, 5, 6, 7, 8, 9, 11
+
+## Midterm Project
+Midterm Project Presentations will be on _Tuesday, March 22nd, 3:30pm-5:00pm CT_.
+
+## Topic 5 SQL and Python with SQL
+Suggested Readings:
+DeBarros: 1,2,3, 5, 6, 7, 8, 9
+Harrison and Petrou: 3 (pg 101-113)
+
+## Final Project
+Final Project Presentations will be on _Friday, May 13, 2:00pm-5:00pm CT_.
