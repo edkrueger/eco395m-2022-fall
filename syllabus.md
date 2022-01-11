@@ -68,6 +68,10 @@ Finally, we will use Google Cloud Platform (GCP). GCP charges by use of services
 
 ## Prerequisites
 
+There are no formal prerequisites for this course. However, success in this course requires computer literacy, including the ability to install, use and troubleshoot software.
+
+We will start from the beginning with Python. However, some slight exposure to programming is recommended to understand what you are signing up for. Programming is quite different from other skills you have acquired through your academic career.
+
 ## Course Policies
 ### Grading
 ### Homework Assignments
