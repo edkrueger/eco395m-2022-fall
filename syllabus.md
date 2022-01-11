@@ -59,6 +59,13 @@ Other resources that I recommend:
 * The BigQuery Documentation: https://cloud.google.com/bigquery
 
 ## Software
+
+We will use a lot of free, open-source software in this course, including but not limited to Python, Git and Postgres. I'll indicate when you need to install new software in class and sometimes make specific recommendations. If needed, the TAs will assist during TA office hours.
+
+In addition, we'll use GitHub. The free plan will be sufficient for this course.
+
+Finally, we will use Google Cloud Platform (GCP). GCP charges by use of services but offers a $300 credit to new accounts. This _should_ be sufficient for this course. Costs _may_, in some circumstances, exceed the credit amount. We'll provide guidance in keeping costs under control in class.
+
 ## Prerequisites
 
 ## Course Policies
