@@ -80,7 +80,7 @@ Lectures will be fast-paced, and you must pay attention in class. It can be temp
 ### Outside of Class
 If you'd like to go back and try to replicate the work I do in class, you will have a recording of the lectures. Your homework and group projects will provide you with an opportunity to do it yourself.
 
-After getting the big picture from lectures, the best way to learn to program is to do it. Attending lectures and completing the readings won't be sufficient. In fact, you should consider attempting the HWs first and consulting the readings if you need assistance.
+After getting the big picture from lectures, the best way to learn to program is to do it. Attending lectures and completing the readings won't be sufficient. In fact, you should consider attempting the homeworks first and consulting the readings if you need assistance.
 
 Please attend office hours.
 
@@ -98,8 +98,7 @@ Grades will be based on:
 * Midterm Group Project (30%)
 * Final Group Project (40%)
 
-I will use plus/minus grade categories when assigning final grades (i.e. A, A-, B+, B, B-,... F). Grades will be _not_ be curved. Please do not ask me about extra credit or extra work to improve
-your grade. None will be given.
+I will use plus/minus grade categories when assigning final grades (i.e. A, A-, B+, B, B-,... F). Grades will be _not_ be curved. Please do not ask me about extra credit or extra work to improve your grade. None will be given.
 
 ### Homework Assignments
 
@@ -119,7 +118,7 @@ your grade. None will be given.
 * Final Projects will be presented during the final exam time slot for the course. Each group will have 10 minutes to present their project and 5 minutes of Q & A. (Presentation times are subject to change based on enrollment.)
 * You must attend every group's presentation on presentation days, not just your own group's.
 * If you know in advance that you have a conflict with one of the presentation dates (e.g., due to travel or religious observance) or require accommodations, please see me as soon as possible to work out an alternative. 
-* If you are absent from the exam, you must notify me prior to the presentation at edwardkrueger@utexas.edu. Where advanced notification is not feasible, **the notification must be given by the end of the second day after the absence.** Non-excused absences will result in a zero for that portion of your grade.
+* If you are absent from a project presentation, you must notify me prior to the presentation at edwardkrueger@utexas.edu. Where advanced notification is not feasible, **the notification must be given by the end of the second day after the absence.** Non-excused absences will result in a zero for that portion of your grade.
 ---
 
 # University Disclosures and Policies
@@ -178,7 +177,7 @@ Midterm Project Presentations will be on _Tuesday, March 22nd, 3:30pm-5:00pm CT_
 
 ## Topic 3 SQL and Python with SQL
 Suggested Readings:
-DeBarros: 1,2,3, 5, 6, 7, 8, 9
+DeBarros: 1, 2, 3, 5, 6, 7, 8, 9
 Harrison and Petrou: 3 (pg 101-113)
 
 ## Final Project
