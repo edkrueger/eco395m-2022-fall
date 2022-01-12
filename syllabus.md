@@ -176,7 +176,7 @@ Harrison and Petrou: 1, 2, 3 (pg 81-95), 4, 5, 6, 7, 8, 9, 11
 ## Midterm Project
 Midterm Project Presentations will be on _Tuesday, March 22nd, 3:30pm-5:00pm CT_.
 
-## Topic 5 SQL and Python with SQL
+## Topic 3 SQL and Python with SQL
 Suggested Readings:
 DeBarros: 1,2,3, 5, 6, 7, 8, 9
 Harrison and Petrou: 3 (pg 101-113)
