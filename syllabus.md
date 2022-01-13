@@ -91,14 +91,19 @@ A large part of the learning during this course will occur during group projects
 We'll set aside class time during group projects to work on them. It's essential that you attend class during these times. It's the only opportunity you will have access to me, the TAs, and your group members _at the same time_. We'll provide advice on scoping your projects, help you make good technical choices and help you troubleshoot complex issues.
 
 ## Course Policies
+
 ### Grading
 Grades will be based on:
-* Attendance (10%)
+* Participation (10%)
 * Homework Assignments (20%)
 * Midterm Group Project (30%)
 * Final Group Project (40%)
 
 I will use plus/minus grade categories when assigning final grades (i.e. A, A-, B+, B, B-,... F). Grades will be _not_ be curved. Please do not ask me about extra credit or extra work to improve your grade. None will be given.
+
+### Participation
+
+Your participation grade will be based on the extent to which you attend class during project work weeks and participate in your groups' meetings and your attendance during the midterm and final presentations. Should you have exceptional circumstances where you cannot attend class during project work, you must make arrangements with your group and inform me of these arrangements.
 
 ### Homework Assignments
 
@@ -109,7 +114,8 @@ I will use plus/minus grade categories when assigning final grades (i.e. A, A-, 
 * The _two_ lowest-scoring homeworks will be dropped to allow you some flexibility throughout the semester.
 * Howeworks will be submitted in _private_ Github repositories by submitting the link to Canvas and inviting the TAs. Homework solutions may not be made public.
 
-## Group Projects and Group Project Presentations
+### Group Projects and Group Project Presentations
+
 * Students will form groups of around five students. (Sizes are subject to change based on enrollment.)
 * Students may opt to form different groups for the midterm and final projects.
 * Projects will be developed and submitted in public GitHub repositories. You are encouraged to share your projects.
