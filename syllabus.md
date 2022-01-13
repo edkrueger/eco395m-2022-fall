@@ -99,7 +99,11 @@ Grades will be based on:
 * Midterm Group Project (30%)
 * Final Group Project (40%)
 
-I will use plus/minus grade categories when assigning final grades (i.e. A, A-, B+, B, B-,... F). Grades will be _not_ be curved. Please do not ask me about extra credit or extra work to improve your grade. None will be given.
+Final grades will be determined on the basis of the following rubric.  
+
+Please note: to ensure fairness, all numbers are absolute, and will not be rounded up or down at any stage. Thus a B- will be inclusive of all scores of 80.000 through 83.999.  A = 94-100 A- = 90-93 B+ = 87-89 B = 84-86 B- = 80-83 C+ = 77-79 C = 74-76 C- = 70-73 D+ = 67-69 D = 64-66 D- = 60-63 F = 0-60.  
+
+Grades will be _not_ be curved. Please do not ask me about extra credit or extra work to improve your grade. None will be given.
 
 ### Participation
 
