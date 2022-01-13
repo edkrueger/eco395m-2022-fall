@@ -173,6 +173,7 @@ Downey: 1, 2, 3, 5 (skip recursion topics), 6 (skip recursion topics), 7, 8, 10,
 Harrison and Petrou: 1, 2, 3 (pg 81-95), 4, 5, 6, 7, 8, 9, 11
 
 ## Midterm Project
+Project Work Week -- _Tuesday, March 8th_ and _Thursday, March 10th_ will be used for in class project work.  
 Midterm Project Presentations will be on _Tuesday, March 22nd, 3:30pm-5:00pm CT_.
 
 ## Topic 3 SQL and Python with SQL
@@ -181,4 +182,5 @@ DeBarros: 1, 2, 3, 5, 6, 7, 8, 9
 Harrison and Petrou: 3 (pg 101-113)
 
 ## Final Project
+Project Work Weeks -- _Tuesday, April 26th_, _Thursday, April 28th_, _Tuesday, May 3rd_ and _Thursday, May 5th_ will be used for in class project work.  
 Final Project Presentations will be on _Friday, May 13, 2:00pm-5:00pm CT_.
