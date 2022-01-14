@@ -1,5 +1,5 @@
 ## Homework 1
-You must submit a URL to your private GitHub repository to receive credit. You must also add me (edkrueger) and the TAs (ericschulman, ?) as collaborators.  
+You must submit a URL to your private GitHub repository to receive credit. You must also add me (edkrueger) and the TAs (ericschulman, mynameisphatcao) as collaborators.  
 
 ## Problem 0 - (0 points)
 Some initial setup.  
