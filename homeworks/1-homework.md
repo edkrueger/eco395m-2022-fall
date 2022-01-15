@@ -1,11 +1,11 @@
 ## Homework 1
-You must submit a URL to your private GitHub repository to receive credit. You must also add me (edkrueger) and the TAs (ericschulman, mynameisphatcao) as collaborators.  
+You must submit a URL to your _private_ GitHub repository to receive credit. You must also add me (edkrueger) and the TAs (ericschulman, mynameisphatcao) as collaborators.  
 
 ## Problem 0 - (0 points)
 Some initial setup.  
 a) Create a new private repository on GitHub  
-b) Clone the repository locally  
-c) Add me  
+b) Add me and the TAs as collaborators
+c) Clone the repository locally  
 
 ## Problem 1 - (10 points)
 You'll commit your first file to GitHub.  
