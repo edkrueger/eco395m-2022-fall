@@ -10,7 +10,7 @@ b) Select "Use this template" and create a _private_ repository with the name "e
 
 c) Select "Settings>Collaborators>" and add "edkrueger", "ericschulman" and "mynameisphatcao" as collaborators.    
 
-## Problems 1 - (100 points)
+## Problem 1 - (100 points)
 You'll solve the coding bat exercises in `warmup-1.py`, `logic-1.py` and `logic-2.py`. You can check your answers by running each of the scripts.  
 
 When grading this problem...  
@@ -24,6 +24,6 @@ _You are allowed to skip up to 4 exercises. There are 28 exercises total. So, su
 a) Create a branch called `warmup-1` and check out the branch.  
 b) For each function in `warmup-1.py`, modify the function so that all cases pass and commit your solution. There should be at least one commit per problem. _Do not modify the code under `if__name__=="__main__":`. Do not modify the code in `_check.py`. Do not hard code solutions to test cases in your functions. These will be considered academic dishonesty, and you will receive a 0 for this homework._  
 _Do not import any modules or packages. The point of these exercises are to learn Python, not a library or a module._  
-c) After solving all the problems in `warmup-1.py`, create a Pull Request to merge your code in to the `main` branch, then merge the Pull Request.  
+c) After solving all the problems in `warmup-1.py`, create a Pull Request to merge your code into the `main` branch, then merge the Pull Request.  
 d) Repeat a, b and c with `logic-1`.    
 e) Repeat a, b and c with `logic-2`.    
