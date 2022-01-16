@@ -4,7 +4,7 @@ You must submit a URL to your _private_ GitHub repository to receive credit. You
 ## Problem 0 - (0 points)
 You'll clone a repo with several Python exercises.
 
-a) Fork the repo: https://github.com/edkrueger/eco395m-codingbat   
+a) Go to the repo: https://github.com/edkrueger/eco395m-codingbat   
 
 b) Select "Use this template" and create a _private_ repository with the name "eco395m-codingbat".  
 
