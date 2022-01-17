@@ -12,18 +12,24 @@ Until then, class will be held remotely via Zoom (link on Canvas). Recordings of
 ## Instructor: Edward Krueger
 
 * Email: edwardkrueger@utexas.edu
-* Office Hours: Tuesdays and Thursdays 2:30 - 3:15
+* Office Hours: Tuesdays and Thursdays 2:30pm - 3:15pm CT
 * Office Hours Remote Location (temporary): Zoom (link on Canvas)
 * Office Hours Location (when applicable): BRB 3.134H
 
-## Teaching Assistants:
+## Teaching Assistants: Eric Schulman
 
-* Eric Schulman: ericschulman@utexas.edu
-* Jialue Cao: jialue.cao@austin.utexas.edu
-* TA Office Hours: TBD
+* Email: ericschulman@utexas.edu
+* TA Office Hours: Monday 2:00pm - 4:00pm
 * TA Office Hours Remote Location (temporary): Zoom (link on Canvas)
-* Office Hours Location (when applicable): TBD
+* TA Office Hours Location (when applicable): BRB 3.102 E
 
+## Teaching Assistants: Jialue Cao
+
+* Email: phatcao@utexas.edu
+* TA Office Hours: Wednesday 2:00pm - 4:00pm
+* TA Office Hours Remote Location (temporary): Zoom (link on Canvas)
+* TA Office Hours Location (when applicable): TBD
+* 
 ---
 
 # Course Description and Requirements
