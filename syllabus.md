@@ -10,7 +10,9 @@ Class will meet Tuesday and Thursday **3:30pm - 5pm CT**.
 TA sessions are optional and will meet Fridays from **10am - 11am CT**.  
 
 Subject to the university's COVID-19 Executive Committee's recommendation, **_after January 31st_**, 2021, class will be held in person in **BRB 1.118**.  
-Until then, class will be held remotely via Zoom (link on Canvas). Recordings of lectures will be posted for a limited time on Canvas.  
+Subject to the university's COVID-19 Executive Committee's recommendation, **_after January 31st_**, 2021, TA sessions will be held in person in **location TBD**.  
+
+Until then, class and TA sessions will be held remotely via Zoom (link on Canvas). Recordings of lectures will be posted for a limited time on Canvas.  
 
 ## Instructor: Edward Krueger
 
