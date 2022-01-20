@@ -3,7 +3,7 @@ You must submit a URL to your _private_ GitHub repository to receive credit. You
 
 ## Problem 0 - (0 points)
 Some initial setup.  
-a) Create a new private repository on GitHub  
+a) Create a new private repository called `eco395m-homework-1` on GitHub  
 b) Select "Settings>Collaborators>" and add "edkrueger", "ericschulman" and "mynameisphatcao" as collaborators  
 c) Clone the repository locally  
 
