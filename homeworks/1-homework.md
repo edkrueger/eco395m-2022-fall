@@ -14,7 +14,7 @@ We'll grade this problem by checking if the file exists on GitHub and if it was 
 
 a) Create a file at the top of your repository with "Hello World" in it by running: `echo "Hello World" > hello.txt`  
 
-b) Have git track the file by running:  `git add hello.py`  
+b) Have git track the file by running:  `git add hello.txt`  
 
 c) Commit the file by running: `git commit -m "Say Hello."`  
 
