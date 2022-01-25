@@ -39,7 +39,7 @@ _(Note: Operating systems, text editors, IDEs and many other applications create
 
 d) Commit the files you created and push them to the GitHub repository.  
 
-e) Take the commands you ran to make your "home" and make them into the script called `make_home.sh` in the `home` directory. Run the script by running `sh make_home.sh` to ensure it works.  
+e) Take some of the commands you ran to make your "home" and make them into the script called `make_home.sh` in the `home` directory. Run the script by running `sh make_home.sh` to ensure it works.  
 
 f) Commit the script and push it to the GitHub repository.  
 
