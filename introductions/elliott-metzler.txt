@@ -1,0 +1,4 @@
+Hi all, I'm Elliott.
+I'm from southern Indiana, and went to University of Michigan before spending the past four years in Boston working at The Brattle Group. I'm excited to be taking this course to help become bilingual and hopefully prepare for a career in tech. Currently, I'm particularly interested in learning more about the intersection of econometrics and machine learning. With any luck, after graduation, I'll be able to begin a career working at a wellness-focused company on a data analytics team. If I'm really lucky, I'll get to work in sports analytics one day - but thats probably just a %>% dream.
+
+Cheers!
