@@ -21,13 +21,13 @@ def fizzbuzz(my_int):
 	elif my_int % 5 == 0:
 		print("buzz")
 
-# say_even_or_odd(2)
-# say_even_or_odd(55)
+say_even_or_odd(2)
+say_even_or_odd(55)
 
-# great_good_or_bad(3)
-# great_good_or_bad(2)
-# great_good_or_bad(6)
-# great_good_or_bad(5)
+great_good_or_bad(3)
+great_good_or_bad(2)
+great_good_or_bad(6)
+great_good_or_bad(5)
 
 fizzbuzz(6)
 fizzbuzz(10)
