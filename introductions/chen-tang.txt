@@ -1,0 +1,4 @@
+Hi, this is Chen Tang from Hunan, China. 
+I have degrees from Dongbei University of Finance and Economics.
+I'm interested in econometrics.
+I've learn some basic skills in Python, Sql, and R.
