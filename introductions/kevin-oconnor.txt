@@ -1,0 +1,6 @@
+Hello, my name is Kevin O'Connor
+I love data science, economics, and cryptocurrencies in no particular order.
+ This semester I am learning how to code in python and solidity.
+ I have a few possible project ideas, such as developing a capital asset pricing model for commercial real estate in Nueces county for a PE group I am connected to.
+This could be acheived by crawling webpages such as redfin, and running a series of regressions.
+I look forward to working with you all, and I am very excited for this class.
