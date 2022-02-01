@@ -1,0 +1,1 @@
+Hi, this is my introduction to the course. My name is Afif Mazhar. I have a bachelor's degree in Information Technology from the University of Texas at Dallas. AFter this master's program, my career path lies in a blend of academics (PhD) and corporate work (data science). I love to weightlift and want to learn to proficiently understand Python as a technical skill.
