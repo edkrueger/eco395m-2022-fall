@@ -1,0 +1,5 @@
+Hi, all. I'm Taylor. 
+I'm originally from a small town in Northeast Texas. 
+After studying economics and statistics in undergrad, I spent several years working in finance.
+I am particularly interested in energy economics.
+And I have more experience with R but am excited to learn Python in this course.
