@@ -1,2 +1,2 @@
 """This file exists for testing automation."""
-print("Hello Wolrd")
+print("Hello World")
