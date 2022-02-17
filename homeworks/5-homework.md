@@ -11,7 +11,7 @@ b) Select "Use this template" and create a _private_ repository with the name "e
 
 c) Select "Settings>Collaborators>" and add "edkrueger", "ericschulman" and "mynameisphatcao" as collaborators.    
 
-## Problem 1 - (? points)
+## Problem 1 - (100 points)
 You'll analyze the word frequencies of the complete works of William Shakespeare.
 
 When grading this problem, we'll execute the code by cloning your repo, running `cd eco395m-homework-4` repository and running `python3 code/shakespeare.py`.  
