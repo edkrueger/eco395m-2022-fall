@@ -1,5 +1,6 @@
 ## Homework 1
-You must submit a URL to your _private_ GitHub repository to receive credit. You must also add me (edkrueger) and the TAs (ericschulman, mynameisphatcao) as collaborators.  
+You must submit a URL to your _private_ GitHub repository called `eco395m-homework-1` in Canvas to receive credit. You must also add me (edkrueger) and the TAs (ericschulman, mynameisphatcao) as collaborators.  
+You will _not_ submit your fork in Problem 3, nor will you invite us to your fork. We'll be able to grade that problem by looking at your PR (pull request) to the class repo.
 
 ## Problem 0 - (0 points)
 Some initial setup.  
