@@ -57,4 +57,4 @@ i) Sort your words by their counts in descending order.
 (Hint: Dictionaries are unordered, so you'll want to use the `.items()` method to convert to a list of tuples.
 You can then use the `sorted` function to sort your list in descending order using the second index of each tuple as the sort key.)  
 
-j) Write to a CSV file with one column called "word" and one called "count". For an example, see `artifacts/example_shakespeare_report.csv`  
+j) Write to a CSV file to `artifacts/shakespeare_report.csv` with one column called "word" and one called "count". For an example, see `artifacts/example_shakespeare_report.csv`  
