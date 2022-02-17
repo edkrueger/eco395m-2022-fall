@@ -1,0 +1,24 @@
+This is a text file.
+
+Maybe, here is some information about copyright.
+
+This could go on for a bit...
+
+We want to skip everything up to this point.
+
+# In the best case, the # symbol clearly indicates this line should be ignored like a text comment.
+
+Here some some actual text.
+
+Here is some more.
+
+This is a really long line... it is really, really, really, really, really, really, really, really, really, really, really, really, really, really, really, really, really, really, really, really, really, really, long.
+
+<< This is a multi-line attribution.
+Here are some more lines.
+and some more. >>
+
+Here is some real text we want again.
+
+We want this too.
+

@@ -17,7 +17,7 @@ Until then, class and TA sessions will be held remotely via Zoom (link on Canvas
 ## Instructor: Edward Krueger
 
 * Email: edwardkrueger@utexas.edu
-* Office Hours: Tuesdays and Thursdays 2:30pm - 3:15pm CT
+* Office Hours: Tuesdays 5:00pm - 5:45pm CT and Thursdays 2:30pm - 3:15pm CT
 * Office Hours Remote Location (temporary): Zoom (link on Canvas)
 * Office Hours Location (when applicable): BRB 3.134H
 
