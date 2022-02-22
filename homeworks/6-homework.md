@@ -41,7 +41,7 @@ d) Write to a CSV file to `artifacts/election_report.csv` with columns "year", "
 
 
 ## Problem 2 - (50 points)
-You'll aggregate 2020 county-level election results into state-level results. But this time with Pandas.
+You'll aggregate 2020 county-level election results into state-level results. But this time with Pandas.  pecifically Pandas 1.3.5, which is on GCP Vertex AI Notebook and we'll use this version to grade.  
 
 When grading this problem, we'll execute the code by cloning your repo, running `cd eco395m-homework-6` repository and running `python3 code/pandas_election_2020.py `.  
 Depending on your Python installation, you may need to run it with `python3 code/pandas_election_2020.py`.  
