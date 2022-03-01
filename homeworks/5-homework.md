@@ -21,10 +21,11 @@ If your code does not execute properly with this command, it will be considered 
 We'll check for a CSV file called `shakespeare_report.csv` at the location, relative to the top level of the repo, of `artifacts/shakespeare_report.csv`.  
 The expectation is that your code generates the output when we run it, not just that the file exists.  
 
-You'll get 40 points if the generated CSV follows the format specified in `artifacts/example_shakespeare_report.csv`.  
+You'll get 40 points if the code runs and the generated CSV follows the format specified in `artifacts/example_shakespeare_report.csv`.  
 You'll get 20 points if the list of words _does not_ include any of the stopwords.  
-We'll spot-check your CSV's word counts for the 3 words in the example. If their counts all match the example exactly, you'll get 20 points. Otherwise, if they are all within +/- 20% of the example's counts, you'll get 10 points.  
-We'll spot-check your CSV's word counts for 3 withheld words. If their counts match all my counts exactly, you'll get 20 points. Otherwise, if they are within +/- 20% of the withheld counts, you'll get 10 points.  
+We'll spot-check your CSV's word counts for the 3 words in the example. If their counts all match the example within +/- 5% of the example's counts, you'll get 20 points. Otherwise, if they are all within +/- 20% of the example's counts, you'll get 10 points.  
+We'll spot-check your CSV's word counts for 3 withheld words. If their counts all match the example within +/- 5% of the example's counts, you'll get 20 points. Otherwise, if they are within +/- 20% of the withheld counts, you'll get 10 points.  
+We won't use any word with a frequency of less than 500 to check.  
 
 Do not import any modules _other than modules found in the [Python Standard Library](https://docs.python.org/3/library/)_; if you do, You will receive a 0 for this homework.  
 In particular, do not use Pandas for this assignment.  
