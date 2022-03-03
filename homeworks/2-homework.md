@@ -1,5 +1,5 @@
 ## Homework 2
-You must submit a URL to your _private_ GitHub repository to receive credit. You must also add me (edkrueger) and the TAs (ericschulman, mynameisphatcao) as collaborators.  
+You must submit your GitHub username to Canvas. You must have a _private_ repository with the name specified. You must also add me (edkrueger) and the TAs (ericschulman, mynameisphatcao) as collaborators.  
 
 ## Problem 0 - (0 points)
 You'll clone a repo with several Python exercises.
@@ -23,7 +23,7 @@ _You are allowed to skip up to 4 exercises. There are 28 exercises total. So, su
 
 a) Create a branch called `warmup-1` and check out the branch.  
 b) For each function in `warmup-1.py`, modify the function so that all cases pass and commit your solution. There should be at least one commit per problem. _Do not modify the code under `if__name__=="__main__":`. Do not modify the code in `_check.py`. Do not hard code solutions to test cases in your functions. These will be considered academic dishonesty, and you will receive a 0 for this homework._  
-_Do not import any modules or packages. The point of these exercises is to learn Python, not a library or a module. You will receive a 0 for this homework, if you do._  
+_Do not import any modules or packages. The point of these exercises is to learn Python, not a library, package, or a module. You will receive a 0 for this homework, if you do._  
 c) After solving all the problems in `warmup-1.py`, create a Pull Request to merge your code into the `main` branch, then merge the Pull Request.  
 d) Repeat a, b and c with `logic-1`.    
 e) Repeat a, b and c with `logic-2`.    
