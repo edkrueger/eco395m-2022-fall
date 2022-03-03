@@ -2,7 +2,7 @@
 
 You’ll work in self assigned groups with 5-7 members. You’ll select a dataset or create a dataset by combining other datasets. Then you’ll perform an analysis on that dataset. You’ll use a public GitHub repository to organize, record and document your work and your findings. This project will become part of your portfolio – it's public, so you are welcome and encouraged to share it when you are done. You’ll present your work to the class.
 
-## The Report in README.md -- (30 points)
+## The Report in README.md - (30 points)
 
 The report should cover your data source and your analysis.  
 
@@ -21,7 +21,7 @@ Requirements for reporting about the data:
 * Limitations of the data must be clearly outlined
 * A discussion of extensions of data that would be required to improve the analysis should be included
 
-## Reproducibility – (20 points)
+## Reproducibility - (20 points)
 
 Your work must be reproducible. This means that anyone should be able to follow your instructions to run your code on your data and get the same results you do.  
 
@@ -33,7 +33,7 @@ Requirements for reproducibility:
 * Must use relative paths
 * Data should be included in the repository if the dataset is small enough, otherwise instructions for downloading the datasets and placing them in the right locations is required.
 
-## Code Quality – (10 points)
+## Code Quality - (10 points)
 
 Requirements for formatting:
 * Your code should use double and single quotes consistently
@@ -51,7 +51,7 @@ Requirements for comments and docstrings:
 * Comments should be used sparingly either to clarify difficult to understand, unintuitive or otherwise surprising code or add structure. (Note: In most cases a function with a docstring will be a better option than a comment.)
 
 
-## Repo  - (10 points)
+## Repo - (10 points)
 
 Requirements for the repo:
 * You group must collaborate in a single repository
@@ -72,7 +72,7 @@ Requirements for the presentation:
 * You may and probably should delegate a single person to present – you whole group should collaborate in designing and rehearsing the presentation.
 * You’ll have 2 minutes of Q&A with the class and I.
 
-## Individual Requirements – (20 points)
+## Individual Requirements - (20 points)
 * You must solve at least two meaningful issues
 * You make at least 5 meaningful commits
 * You must attend your group’s presentation and all others
