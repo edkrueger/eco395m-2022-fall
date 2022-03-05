@@ -16,7 +16,7 @@ You'll aggregate 2020 county-level election results into state-level results.
 
 When grading this problem, we'll execute the code by cloning your repo, running `cd eco395m-homework-6` repository and running `python3 code/election_2020.py`.  
 
-Depending on your Python installation, you may need to run it with `python3 code/election_2020.py`.  
+Depending on your Python installation, you may need to run it with `python code/election_2020.py`.  
 Because Python paths are relative to the location the _script is executed from_, it is essential to follow this instruction for execution.  
 If your code does not execute properly with this command, it will be considered incomplete.  
 We'll check for a CSV file called `election_report.csv` at the location, relative to the top level of the repo, of `artifacts/election_report.csv`.  
