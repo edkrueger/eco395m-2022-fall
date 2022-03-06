@@ -20,9 +20,11 @@ Depending on your Python installation, you may need to run it with `python code/
 Because Python paths are relative to the location the _script is executed from_, it is essential to follow this instruction for execution.  
 If your code does not execute properly with this command, it will be considered incomplete.  
 We'll check for a CSV file called `election_report.csv` at the location, relative to the top level of the repo, of `artifacts/election_report.csv`.  
-The expectation is that your code generates the output when we run it, not just that the file exists.  
 
-You'll get 20 points if the generated CSV follows the format specified in `artifacts/example_election_report.csv`.  
+The expectation is that your code generates the output when we run it, not just that the file exists. This means that if the code does not run, you will receive a 0.  
+
+You'll get 20 points if the generated CSV follows the format specified in `artifacts/example_election_report.csv`. In particular, this means that the CSV must have the same header as the example. If it does not, you will receive a 0.  
+
 You'll get 10 points if the CSV is in the correct order.
 We'll spot-check your CSV's word counts for 3 state/candidate combinations. If their counts all match the example exactly, you'll get 20 points. Otherwise, if they are all within +/- 20% of the example's counts, you'll get 10 points, but we'll have to have a recount. Data is real election data, so you can verify your results against the actual outcomes.
 
@@ -50,7 +52,8 @@ If your code does not execute properly with this command, it will be considered 
 We'll check for a CSV file called `election_report_pandas.csv` at the location, relative to the top level of the repo, of `artifacts/election_report_pandas.csv`.  
 The expectation is that your code generates the output when we run it, not just that the file exists.  
 
-You'll get 20 points if the generated CSV follows the format specified in `artifacts/example_election_report.csv`.  
+You'll get 20 points if the generated CSV follows the format specified in `artifacts/example_election_report.csv`. In particular, this means that the CSV must have the same header as the example. If it does not, you will receive a 0. This means that if the code does not run, you will receive a 0.  
+
 You'll get 10 points if the CSV is in the correct order.
 We'll spot-check your CSV's word counts for 3 state/candidate combinations. If their counts all match the example exactly, you'll get 20 points. Otherwise, if they are all within +/- 20% of the example's counts, you'll get 10 points, but we'll have to have a recount. Data is real election data, so you can verify your results against the actual outcomes.
 
