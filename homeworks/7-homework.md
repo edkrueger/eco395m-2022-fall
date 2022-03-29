@@ -15,7 +15,7 @@ c) Select "Settings>Collaborators>" and add "edkrueger", "ericschulman" and "myn
 You'll scrape the website http://books.toscrape.com/, collecting the following fields: 
 
 | Field | Type | Example |
-| - | - | - | - |
+| - | - | - |
 | "upc" | str | "a897fe39b1053632" |
 | "title" | str | "A Light in the Attic" |
 | "category" | str | "Poetry" |
