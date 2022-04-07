@@ -19,7 +19,7 @@ When grading this problem...
 
 80 points will be awarded in proportion to the number of exercises you successfully solve. An exercise will be successfully solved if your solution passes all of the cases. A solution that does not pass all of the cases will not be considered successfully solved.  
 
-_You are allowed to skip up to 4 exercises. There are 28 exercises total. So, submissions with at least 24 successfully solved exercises will receive all 100 points._  
+_You are allowed to skip up to 4 exercises. There are 28 exercises total. So, submissions with at least 24 successfully solved exercises will receive all 80 points._  
 
 a) Create a branch called `warmup-1` and check out the branch.  
 b) For each function in `warmup-1.py`, modify the function so that all cases pass and commit your solution. There should be at least one commit per problem. _Do not modify the code under `if__name__=="__main__":`. Do not modify the code in `_check.py`. Do not hard code solutions to test cases in your functions. These will be considered academic dishonesty, and you will receive a 0 for this homework._  
