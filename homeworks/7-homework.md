@@ -52,7 +52,7 @@ _For more realistic problems like this one, there are often many different ways 
 A function called `get_soup` is already implemented for you in the starter code. It takes a URL and returns a `bs4.BeautifulSoup` instance representing the webpage at the URL.  
 a) Write `scrape_page`, a function to scrape all of the book URLs from a page. There is a test to check if this function works properly. You can execute it by running `python code/scrape_pages.py`. (Hint: If there is no page with the given number, have this function return an empty list.)  
 b) Write `scrape_all_pages`, a function to scrape all of the book URLs from all pages using `scrape_page`. (Hint: This function should end when it encounters a page that has no books.  I.e. then scrape_page returns an empty list.)  
-c) Implement `extract_price` and `extract_stock` to clean the strings in the format that appears on the books. There are tests to check if this function works properly. You can execute them by running `python code/scrape_pages.py`.  
+c) Implement `extract_price` and `extract_stock` to clean the strings in the format that appears on the books. There are tests to check if this function works properly. You can execute them by running `python code/scrape_books.py`.  
 d) Implement `get_category`, `get_title`, `get_description` and `get_product_information` that take a soup object that represents a book. There are tests for these; run them as in (c). 
 e) Implement `scrape_book` which uses the functions from (d) to scrape a book given its URL. There is a test for this; run it as in (c).  
 f) Implement `scrape_books` which uses `scrape_book` to scrape a list of books given their URLs.
