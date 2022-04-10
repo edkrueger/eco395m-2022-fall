@@ -40,5 +40,5 @@ _You are allowed to skip up to 2 exercises. There are 12 exercises in total. So,
 a) For each exercise in `queries.py`. Develop your solution in DBeaver and when you believe it is correct, copy it and paste it into the triple-quoted string under the exercise in `queries.py`. Check your solution by running `python code/check.py`, modify your code as needed and try again. (Hint: If you are confused about a test case, feel free to _read_ the test code -- just don't modify the test code!)  
 b) Repeat for the other exercises.
 
-Do not modify the code in `check.py`. Do not hard code solutions to test cases in your queries. These will be considered academic dishonesty, and you will receive a 0 for this homework._  
+_Do not modify the code in `check.py`. Do not hard code solutions to test cases in your queries. These will be considered academic dishonesty, and you will receive a 0 for this homework._  
 _Do not import anything or write any code other than the SQL in the query strings in `query.py`. You will receive a 0 for this homework if you do. The point of these exercises is to learn SQL._  
