@@ -1,5 +1,5 @@
 # Homework 8
-You must submit your GitHub username to Canvas. You must have a _private_ repository with the name specified. You must also add me (edkrueger) and the TAs (ericschulman, mynameisphatcao) as collaborators.  
+You must submit your GitHub username to Canvas. You must have a _private_ repository with the name specified. You must also add me (edkrueger) and the TAs (ericschulman, mynameisphatcao, ssm-utecon) as collaborators.  
 
 ## Problem 0 - (0 points)
 You'll clone a repo with several SQL exercises.
