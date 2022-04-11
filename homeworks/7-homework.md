@@ -28,7 +28,7 @@ The example comes from this [book](http://books.toscrape.com/catalogue/a-light-i
 You'll write the data to a CSV and a JSONL. See [this](https://jsonlines.org/) for the JSONL specification.  
 
 When grading this problem, we'll execute the code by cloning your repo, running `cd eco395m-homework-7` repository and running `python code/scrape.py`.  
-Your code will be executed in a Python environment containing only the Standard Library and the packages specified in `requirements.txt`.  
+Your code will be executed in a Python environment containing only the Standard Library and the packages specified in `requirements.txt`. Install them with `pip install -r requirements.txt`.   
 
 Because Python paths are relative to the location the _script is executed from_, it is essential to follow this instruction for execution.  
 If your code does not execute properly with this command, it will be considered incomplete.  
