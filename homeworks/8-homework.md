@@ -1,5 +1,5 @@
 # Homework 8
-You must submit your GitHub username to Canvas. You must have a _private_ repository with the name specified. You must also add me (edkrueger) and the TAs (ericschulman, mynameisphatcao) as collaborators.  
+You must submit your GitHub username to Canvas. You must have a _private_ repository with the name specified. You must also add me (edkrueger) and the TAs (ericschulman, mynameisphatcao, ssm-utecon) as collaborators.  
 
 ## Problem 0 - (0 points)
 You'll clone a repo with several SQL exercises.
@@ -24,7 +24,7 @@ d) In DBeaver, Navigate to "chinook" > "Databases" > "chinook". Right-click the 
 
 f) Copy the code in `setup/chinook.sql` into you SQL editor and execute it.
 
-e) Before you can run the checker, you must give it the right credentials to connect to your database. Copy the file `demo.env` to `.env` and modify it by providing the credentials you found in step (c).
+e) Before you can run the checker, you must give it the right credentials to connect to your database. Copy the file `demo.env` to `.env` and modify it by providing the credentials you found in step (c). An easy way to do this is to run `cp demo.env .env` and then modify the file.  
 
 f) Run the checker by running `python code/checker.py`. If you've configured everything properly, you'll see an error like `can't execute an empty query` because your queries haven't been written yet. If your connection configuration is incorrect you receive an error message like `connection to server at "123.456.789.101", port 5432 failed: FATAL:  password authentication failed for user "postgres"`.
 
@@ -40,5 +40,5 @@ _You are allowed to skip up to 2 exercises. There are 12 exercises in total. So,
 a) For each exercise in `queries.py`. Develop your solution in DBeaver and when you believe it is correct, copy it and paste it into the triple-quoted string under the exercise in `queries.py`. Check your solution by running `python code/check.py`, modify your code as needed and try again. (Hint: If you are confused about a test case, feel free to _read_ the test code -- just don't modify the test code!)  
 b) Repeat for the other exercises.
 
-Do not modify the code in `check.py`. Do not hard code solutions to test cases in your queries. These will be considered academic dishonesty, and you will receive a 0 for this homework._  
+_Do not modify the code in `check.py`. Do not hard code solutions to test cases in your queries. These will be considered academic dishonesty, and you will receive a 0 for this homework._  
 _Do not import anything or write any code other than the SQL in the query strings in `query.py`. You will receive a 0 for this homework if you do. The point of these exercises is to learn SQL._  
