@@ -1,4 +1,4 @@
-# Homework 8
+# Homework 9
 You must submit your GitHub username to Canvas. You must have a _private_ repository with the name specified. You must also add me (edkrueger) and the TAs (ericschulman, mynameisphatcao, ssm-utecon) as collaborators.  
 
 ## Problem 0 - (0 points)
@@ -6,7 +6,7 @@ You'll clone a repo with several SQL exercises.
 
 a) Go to the repo: https://github.com/edkrueger/eco395m-homework-9
 
-b) Select "Use this template" and create a _private_ repository with the name "eco395m-homework-8".  
+b) Select "Use this template" and create a _private_ repository with the name "eco395m-homework-9".  
 
 c) Select "Settings>Collaborators>" and add "edkrueger", "ericschulman" and "mynameisphatcao" as collaborators.    
 
@@ -43,7 +43,7 @@ When grading this problem...
 
 100 points will be awarded in proportion to the number of exercises you successfully solve. An exercise will be successfully solved if your solution passes all of the cases. A solution that does not pass all of the cases will not be considered successfully solved.  
 
-_You are allowed to skip up to ? exercises. There are ? exercises in total. So, submissions with at least ? successfully solved exercises will receive all 100 points._  
+_You are allowed to skip up to 0 exercises. There are 6 exercises in total. So, submissions with at least 6 successfully solved exercises will receive all 100 points._  
 
 a) For each exercise in `queries.py`. Develop your solution in DBeaver and when you believe it is correct, copy it and paste it into the triple-quoted string under the exercise in `queries.py`. Check your solution by running `python code/check.py`, modify your code as needed and try again. (Hint: If you are confused about a test case, feel free to _read_ the test code -- just don't modify the test code!)  
 b) Repeat for the other exercises.
