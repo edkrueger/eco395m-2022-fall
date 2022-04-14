@@ -24,7 +24,7 @@ d) In DBeaver, Navigate to "libraries" > "Databases" > "libraries". Right-click 
 
 e) Copy the code in `setup/create_tables.sql` into you SQL editor and execute it to create the tables.  
 
-f) Remove the headers from each of CSVs in `data/`. You can do this with `tail -n +2 with_header.csv without_header.csv`.  
+f) Remove the headers from each of CSVs in `data/`. You can do this with `tail -n +2 with_header.csv > without_header.csv`.  
 
 g) Create a bucket in GCP Cloud Storage (you can use an existing one if you like).  
 
