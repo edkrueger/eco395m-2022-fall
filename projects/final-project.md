@@ -112,5 +112,5 @@ Requirements for the presentation:
 
 ## Individual Requirements - (20 points)
 * You must solve at least two meaningful issues
-* You make at least 10 meaningful commits
+* You make at least 5 meaningful commits
 * You must attend your group’s presentation and all others
