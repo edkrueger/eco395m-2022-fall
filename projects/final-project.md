@@ -96,7 +96,7 @@ Requirements for the repo:
 * When you submit your project, all of your code and documentation should be on the main branch
 * You should use GitHub Issues to organize your work and allow for collaboration
 * You should make a branch for each issue
-* Your repo should have at least 60 commits as a group
+* Your repo should have at least 30 commits as a group
 
 ## Presentation - (5 points)
 
