@@ -28,7 +28,7 @@ The example comes from this [book](http://books.toscrape.com/catalogue/a-light-i
 You'll write the data to a CSV and a JSONL. See [this](https://jsonlines.org/) for the JSONL specification.  
 
 When grading this problem, we'll execute the code by cloning your repo, running `cd eco395m-homework-7` repository and running `python code/scrape.py`.  
-Your code will be executed in a Python environment containing only the Standard Library and the packages specified in `requirements.txt`.  
+Your code will be executed in a Python environment containing only the Standard Library and the packages specified in `requirements.txt`. Install them with `pip install -r requirements.txt`.   
 
 Because Python paths are relative to the location the _script is executed from_, it is essential to follow this instruction for execution.  
 If your code does not execute properly with this command, it will be considered incomplete.  
@@ -41,8 +41,8 @@ We also expect that your code executes in under 5 minutes, if it does not, you w
 You'll get 10 points if the generated CSV follows the format specified in `artifacts/example_results.csv`. In particular, this means that the CSV must have the same header as the example. If it does not, you will receive a 0 for this part.  
 You'll get 10 points if the generated JSONL follows the format specified in `artifacts/example_results.jsonl`. In particular, this means that the CSV must have the same fieldnames as the example. If it does not, you will receive a 0 for this part. Note, that since JSONL lines are JSON Objects, they are considered unstructured, so the order in which the key-value pairs appear does not matter.  
 
-You'll get 20 points if your CSV contains all 1000 books and 0 points otherwise.  
-You'll get 20 points if your JSONL contains all 1000 books and 0 points otherwise.  
+You'll get 10 additional points if your CSV contains all 1000 books and 0 points otherwise.  
+You'll get 10 additional points if your JSONL contains all 1000 books and 0 points otherwise.  
 
 We'll spot-check 3 of your CSV's books for an exact match on all values for all fields _except_ "description". If all of the fields checked match exactly for all 3 book, you'll receive 30 points and 0 points otherwise.  
 We'll spot-check 3 of your JSONL's books for an exact match on all values for all fields _except_ "description". If all of the fields checked match exactly for all 3 book, you'll receive 30 points and 0 points otherwise.  
@@ -52,7 +52,7 @@ _For more realistic problems like this one, there are often many different ways 
 A function called `get_soup` is already implemented for you in the starter code. It takes a URL and returns a `bs4.BeautifulSoup` instance representing the webpage at the URL.  
 a) Write `scrape_page`, a function to scrape all of the book URLs from a page. There is a test to check if this function works properly. You can execute it by running `python code/scrape_pages.py`. (Hint: If there is no page with the given number, have this function return an empty list.)  
 b) Write `scrape_all_pages`, a function to scrape all of the book URLs from all pages using `scrape_page`. (Hint: This function should end when it encounters a page that has no books.  I.e. then scrape_page returns an empty list.)  
-c) Implement `extract_price` and `extract_stock` to clean the strings in the format that appears on the books. There are tests to check if this function works properly. You can execute them by running `python code/scrape_pages.py`.  
+c) Implement `extract_price` and `extract_stock` to clean the strings in the format that appears on the books. There are tests to check if this function works properly. You can execute them by running `python code/scrape_books.py`.  
 d) Implement `get_category`, `get_title`, `get_description` and `get_product_information` that take a soup object that represents a book. There are tests for these; run them as in (c). 
 e) Implement `scrape_book` which uses the functions from (d) to scrape a book given its URL. There is a test for this; run it as in (c).  
 f) Implement `scrape_books` which uses `scrape_book` to scrape a list of books given their URLs.
