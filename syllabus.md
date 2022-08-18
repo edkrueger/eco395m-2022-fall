@@ -50,11 +50,11 @@ What this course is not:
 * This is *_not_* a course on application development. However, we will incidentally cover many of the same fundamentals and serve as a strong foundation.
 
 ## Reading and References
-All reading and references for this course are optional. If you can complete the homework and contribute to your group projects without them, feel free to. There are many resources, freely available and otherwise.
+All reading and references for this course are optional but highly recommended. If there is a concept that you do not understand, refer to the recommended books. There are many resources, freely available and otherwise.  
 
-That said, the quality of resources, especially the freely available ones, varies tremendously. There is a tremendous amount of bad advice, bad practices and just plain wrong information about coding and data on the internet.
+That said, the quality of resources, especially the freely available ones, varies tremendously. There is a tremendous amount of bad advice, bad practices and just plain wrong information about coding and data on the internet.  
 
-Here is a non-exhaustive list of resources that I recommend and will suggest readings from in class:
+Here is a non-exhaustive list of resources that I recommend and will suggest readings from in class:  
 * _Unix for the Beginning Mage_ by Joe Topjian (Freely available online.)
 * _git - the simple guide_ by Roger Dudler (Freely available here: https://rogerdudler.github.io/git-guide/)
 * _Think Python : How to Think Like a Computer Scientist_ By Downey, Allen B. (Get the 2nd edition. The 1st edition is written for Python 2, which is rather unlike Python 3)
