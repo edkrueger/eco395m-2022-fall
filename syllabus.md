@@ -62,7 +62,8 @@ Here is a non-exhaustive list of resources that I recommend and will suggest rea
 * _git - the simple guide_ by Roger Dudler (Freely available here: https://rogerdudler.github.io/git-guide/)
 * _Think Python : How to Think Like a Computer Scientist_ By Downey, Allen B. (Get the 2nd edition. The 1st edition is written for Python 2, which is rather unlike Python 3)
 * _Pandas 1. x Cookbook : Practical Recipes for Scientific Computing, Time Series Analysis, and Exploratory Data Analysis Using Python_ by Harrison, Matt and Petrou, Theodore (I'll be using the 2nd edition to suggest reading. The 1st edition uses an older version of Pandas, but should be mostly applicable.)
-* _Practical SQL: A Beginner's Guide to Storytelling with Data_ by DeBarros, Anthony (I will use the 1st edition to suggest reading. However, a 2nd edition is coming out at the end of January. If you'd like to wait for its release, feel free to. We won't start SQL until after the midterm project.)
+* _Practical SQL: A Beginner's Guide to Storytelling with Data_ by DeBarros, Anthony (You may use either the 1st or 2nd edition. The 2nd edition covers some material I will cover that the 1st edition does not. I'll post one version of the suggested readings for each edition.)  
+
 
 Other resources that I recommend:
 * _Effective Pandas_ by Matt Harrison (An excellent read published after I selected textbooks for this course.)
