@@ -127,8 +127,8 @@ Your participation grade will be based on the extent to which you attend class d
 * There will be 8-12 homeworks assigned during the semester.
 * Homework will not be assigned during project weeks but may be due during them.
 * Homework assignments from previous semesters are posted in the class repository but may change in part or entirely at any time before I assign them for this semester.
-* Due dates will be announced as homeworks is assigned. Homeworks will typically be due a week from when they are assigned.
-* Late homework will _not_ be accepted.
+* Due dates will be announced as homeworks is assigned. Homeworks will typically be due a week from when they are assigned. Late homework will _not_ be accepted.
+* For each homework, you may make an additional attempt _once_ after receiving your initial grade. I will assign the due dates for the additional attempt for each homework. Late additional attempts will _not_ be accepted. If you make an additional attempt, its grade will replace your initial grade.t_ be accepted. If you make an additional attempt, its grade will replace your initial grade.
 * The _two_ lowest-scoring homeworks will be dropped to allow you some flexibility throughout the semester.
 * Homeworks will be submitted in _private_ Github repositories. You must invite the TA(s) and me as collaborators. We'll be able to find your homeworks if you follow the instructions in the assignments. Homework solutions may not be made public. Grades will be posted on Canvas. You will not need to submit homeworks on Canvas.
 
