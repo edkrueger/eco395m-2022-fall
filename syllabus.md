@@ -1,4 +1,7 @@
+**This Syllabus is a preview only. It is subject to change anytime before the first day of classes.**  
+
 # ECO 395m: Python, Databases, and Big Data
+
 Unique Numbers: 34983, 34984
 
 Course website: https://github.com/edkrueger/eco395m
