@@ -125,6 +125,7 @@ Your participation grade will be based on the extent to which you attend class d
 
 * There will be 8-12 homeworks assigned during the semester.
 * Homework will not be assigned during project weeks but may be due during them.
+* Homework assignments from previous semesters are posted in the class repository but may change in part or entirely at any time before I assign them for this semester.
 * Due dates will be announced as homeworks is assigned. Homeworks will typically be due a week from when they are assigned.
 * Late homework will _not_ be accepted.
 * The _two_ lowest-scoring homeworks will be dropped to allow you some flexibility throughout the semester.
