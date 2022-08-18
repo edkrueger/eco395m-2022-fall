@@ -131,7 +131,7 @@ Your participation grade will be based on the extent to which you attend class d
 * Due dates will be announced as homeworks is assigned. Homeworks will typically be due a week from when they are assigned.
 * Late homework will _not_ be accepted.
 * The _two_ lowest-scoring homeworks will be dropped to allow you some flexibility throughout the semester.
-* Howeworks will be submitted in _private_ Github repositories by submitting the link to Canvas and inviting the TAs. Homework solutions may not be made public.
+* Homeworks will be submitted in _private_ Github repositories. You must invite the TA(s) and me as collaborators. We'll be able to find your homeworks if you follow the instructions in the assignments. Homework solutions may not be made public. Grades will be posted on Canvas. You will not need to submit homeworks on Canvas.
 
 ### Group Projects and Group Project Presentations
 
