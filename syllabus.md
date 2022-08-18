@@ -201,7 +201,8 @@ Midterm Project Presentations will be on _~Tuesday, March 22nd, 3:30pm-5:00pm CT
 
 ## Topic 3 SQL and Python with SQL
 Suggested Readings:
-DeBarros: 1, 2, 3, 5, 6, 7, 8, 9
+DeBarros (1st Edition): 1, 2, 3, 5, 6, 7, 8, 9  
+DeBarros (2nd Edition): 2, 3, 4, 6, 7, 8, 9, 10, 16  
 Harrison:33 ("SQL" section)
 
 ## Final Project
