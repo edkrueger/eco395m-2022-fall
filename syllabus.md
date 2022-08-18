@@ -68,7 +68,6 @@ Other resources that I recommend:
 * The Python Documentation: https://docs.python.org/3.7/
 * The Pandas Documentation: https://pandas.pydata.org/docs/
 * The Postgres Documentation: https://www.postgresql.org/docs/
-* The BigQuery Documentation: https://cloud.google.com/bigquery
 
 ## Software
 
