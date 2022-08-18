@@ -8,35 +8,33 @@ Course website: https://github.com/edkrueger/eco395m
 
 ## Class:
 
-Class will meet Tuesday and Thursday **3:30pm - 5pm CT**.  
+Class will meet Tuesday and Thursday **3:30pm - 5:00pm CT**.  
 
-TA sessions are optional and will meet Fridays from **10am - 11am CT**.  
+TA sessions are optional and will meet Fridays from **11:30am - 12:30am CT** (subject to change). 
 
-Subject to the university's COVID-19 Executive Committee's recommendation, **_after January 31st_**, 2021, class will be held in person in **BRB 1.118**.  
-Subject to the university's COVID-19 Executive Committee's recommendation, **_after January 31st_**, 2021, TA sessions will be held in person in **BRB 1.118**.  
+Class will be held in person in **BRB 1.118**.  
+TA sessions will be held in person in **BRB 1.118** (location subject to change).  
 
-Until then, class and TA sessions will be held remotely via Zoom (link on Canvas). Recordings of lectures will be posted for a limited time on Canvas.  
+Recordings of lectures will be posted for a limited time on Canvas through Lectures Online.  
 
 ## Instructor: Edward Krueger
 
 * Email: edwardkrueger@utexas.edu
-* Office Hours: Tuesdays 5:00pm - 5:45pm CT and Thursdays 2:30pm - 3:15pm CT
-* Office Hours Remote Location (temporary): Zoom (link on Canvas)
-* Office Hours Location (when applicable): BRB 3.134H
+* Office Hours: Tuesdays and Thursdays 5:00pm - 5:45pm CT
+* Office Hours Location: BRB 3.134H
 
-## Teaching Assistant: Eric Schulman
+## Teaching Assistant: TBD
 
-* Email: ericschulman@utexas.edu
-* TA Office Hours: Monday 2:00pm - 4:00pm
-* TA Office Hours Remote Location (temporary): Zoom (link on Canvas)
-* TA Office Hours Location (when applicable): BRB 3.102 E
+* Email: TBD
+* TA Office Hours: TBD
+* TA Office Hours Location:  TBD
 
-## Teaching Assistant: Jialue Cao
 
-* Email: phatcao@utexas.edu
-* TA Office Hours: Wednesday 2:00pm - 4:00pm
-* TA Office Hours Remote Location (temporary): Zoom (link on Canvas)
-* TA Office Hours Location (when applicable): TBD
+## Teaching Assistant: TBD
+
+* Email: TBDD
+* TA Office Hours: TBD
+* TA Office Hours Location: TBD
 ---
 
 # Course Description and Requirements
@@ -178,7 +176,7 @@ I am committed to creating an accessible and inclusive learning environment cons
 Under Texas Senate Bill 212 (SB 212), the professor and TAs for this course are required to report for further investigation any information concerning incidents of sexual harassment, sexual assault, dating violence, and stalking committed by or against a UT student or employee. Federal law and university policy also requires reporting incidents of sex‐ and gender‐based discrimination and sexual misconduct (collectively known as Title IX incidents). This means we cannot keep confidential information about any such incidents that you share with us. If you need to talk with someone who can maintain confidentiality, please contact University Health Services at https://healthyhorns.utexas.edu/ or the UT Counseling and Mental Health Center at https://cmhc.utexas.edu/. You can also make an appointment with a confidential advocate by emailing advocate@austin.utexas.edu or calling (512) 232-2860. We strongly urge you to make use of these services for any needed support and to report any Title IX incidents to the Title IX Office.
 
 ## Wellbeing Resources:
-Grad school is hard, even when we aren’t in the middle of a pandemic. Take care of yourselves and others.
+Grad school is hard. Take care of yourselves and others.
 * The Counseling and Mental Health Center serves UT’s diverse campus community by providing high quality, innovative and culturally informed mental health programs and services that enhance and support students’ well- being, academic and life goals. To learn more about your counseling and mental health options, call CMHC at (512) 471-3515.
 * Check out the Longhorn Wellness Center, and these self-care Virtual Mindfulness and Stress Reduction Activities.
 * If you are experiencing a mental health crisis, call the CMHC Crisis Line 24/7 at (512) 471-2255.
