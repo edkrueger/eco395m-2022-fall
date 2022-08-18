@@ -75,7 +75,7 @@ We will use a lot of free, open-source software in this course, including but no
 
 In addition, we'll use GitHub. The free plan will be sufficient for this course.  
 
-We'll use Discord as our primary channel for communication for everything except for grades. Announcements will be made on Discord; it is your responsibility the check for them.  
+We'll use Discord as our primary channel for communication for everything except for grades. Announcements will be made on Discord; it is your responsibility to check for them.  
 
 Finally, we will use Google Cloud Platform (GCP). GCP charges by use of services but offers a $300 credit to new accounts. This _should_ be sufficient for this course. Costs _may_, in some circumstances, exceed the credit amount. We'll provide guidance in keeping costs under control in class. _Please wait to redeem the credit until we instruct you to._  
 
@@ -128,7 +128,7 @@ Your participation grade will be based on the extent to which you attend class d
 * Homework will not be assigned during project weeks but may be due during them.
 * Homework assignments from previous semesters are posted in the class repository but may change in part or entirely at any time before I assign them for this semester.
 * Due dates will be announced as homeworks is assigned. Homeworks will typically be due a week from when they are assigned. Late homework will _not_ be accepted.
-* For each homework, you may make an additional attempt _once_ after receiving your initial grade. I will assign the due dates for the additional attempt for each homework. Late additional attempts will _not_ be accepted. If you make an additional attempt, its grade will replace your initial grade.t_ be accepted. If you make an additional attempt, its grade will replace your initial grade.
+* For each homework, you may make an additional attempt _once_ after receiving your initial grade. I will assign the due dates for the additional attempt for each homework. Late additional attempts will _not_ be accepted. If you make an additional attempt, its grade will replace your initial grade.
 * The _two_ lowest-scoring homeworks will be dropped to allow you some flexibility throughout the semester.
 * Homeworks will be submitted in _private_ Github repositories. You must invite the TA(s) and me as collaborators. We'll be able to find your homeworks if you follow the instructions in the assignments. Homework solutions may not be made public. Grades will be posted on Canvas. You will not need to submit homeworks on Canvas.
 
