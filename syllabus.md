@@ -1,39 +1,40 @@
+**This Syllabus is a preview only. It is subject to change anytime before the first day of classes.**  
+
 # ECO 395m: Python, Databases, and Big Data
-Unique Numbers 34822, 34823, 34824
+
+Unique Numbers: 34983, 34984
 
 Course website: https://github.com/edkrueger/eco395m
 
 ## Class:
 
-Class will meet Tuesday and Thursday **3:30pm - 5pm CT**.  
+Class will meet Tuesday and Thursday **3:30pm - 5:00pm CT**.  
 
-TA sessions are optional and will meet Fridays from **10am - 11am CT**.  
+TA sessions are optional and will meet Fridays from **11:30am - 12:30am CT** (subject to change). 
 
-Subject to the university's COVID-19 Executive Committee's recommendation, **_after January 31st_**, 2021, class will be held in person in **BRB 1.118**.  
-Subject to the university's COVID-19 Executive Committee's recommendation, **_after January 31st_**, 2021, TA sessions will be held in person in **BRB 1.118**.  
+Class will be held in person in **BRB 1.118**.  
+TA sessions will be held in person in **BRB 1.118** (location subject to change).  
 
-Until then, class and TA sessions will be held remotely via Zoom (link on Canvas). Recordings of lectures will be posted for a limited time on Canvas.  
+Recordings of lectures will be posted for a limited time on Canvas through Lectures Online.  
 
 ## Instructor: Edward Krueger
 
 * Email: edwardkrueger@utexas.edu
-* Office Hours: Tuesdays 5:00pm - 5:45pm CT and Thursdays 2:30pm - 3:15pm CT
-* Office Hours Remote Location (temporary): Zoom (link on Canvas)
-* Office Hours Location (when applicable): BRB 3.134H
+* Office Hours: Tuesdays and Thursdays 5:00pm - 5:45pm CT
+* Office Hours Location: BRB 3.134H
 
-## Teaching Assistant: Eric Schulman
+## Teaching Assistant: TBD
 
-* Email: ericschulman@utexas.edu
-* TA Office Hours: Monday 2:00pm - 4:00pm
-* TA Office Hours Remote Location (temporary): Zoom (link on Canvas)
-* TA Office Hours Location (when applicable): BRB 3.102 E
+* Email: TBD
+* TA Office Hours: TBD
+* TA Office Hours Location:  TBD
 
-## Teaching Assistant: Jialue Cao
 
-* Email: phatcao@utexas.edu
-* TA Office Hours: Wednesday 2:00pm - 4:00pm
-* TA Office Hours Remote Location (temporary): Zoom (link on Canvas)
-* TA Office Hours Location (when applicable): TBD
+## Teaching Assistant: TBD
+
+* Email: TBDD
+* TA Office Hours: TBD
+* TA Office Hours Location: TBD
 ---
 
 # Course Description and Requirements
@@ -50,31 +51,33 @@ What this course is not:
 * This is *_not_* a course on application development. However, we will incidentally cover many of the same fundamentals and serve as a strong foundation.
 
 ## Reading and References
-All reading and references for this course are optional. If you can complete the homework and contribute to your group projects without them, feel free to. There are many resources, freely available and otherwise.
+All reading and references for this course are optional but highly recommended. If there is a concept that you do not understand, refer to the recommended books. There are many resources, freely available and otherwise.  
 
-That said, the quality of resources, especially the freely available ones, varies tremendously. There is a tremendous amount of bad advice, bad practices and just plain wrong information about coding and data on the internet.
+That said, the quality of resources, especially the freely available ones, varies tremendously. There is a tremendous amount of bad advice, bad practices and just plain wrong information about coding and data on the internet.  
 
-Here is a non-exhaustive list of resources that I recommend and will suggest readings from in class:
+Here is a non-exhaustive list of resources that I recommend and will suggest readings from in class:  
 * _Unix for the Beginning Mage_ by Joe Topjian (Freely available online.)
 * _git - the simple guide_ by Roger Dudler (Freely available here: https://rogerdudler.github.io/git-guide/)
 * _Think Python : How to Think Like a Computer Scientist_ By Downey, Allen B. (Get the 2nd edition. The 1st edition is written for Python 2, which is rather unlike Python 3)
-* _Pandas 1. x Cookbook : Practical Recipes for Scientific Computing, Time Series Analysis, and Exploratory Data Analysis Using Python_ by Harrison, Matt and Petrou, Theodore (I'll be using the 2nd edition to suggest reading. The 1st edition uses an older version of Pandas, but should be mostly applicable.)
-* _Practical SQL: A Beginner's Guide to Storytelling with Data_ by DeBarros, Anthony (I will use the 1st edition to suggest reading. However, a 2nd edition is coming out at the end of January. If you'd like to wait for its release, feel free to. We won't start SQL until after the midterm project.)
+* _Effective Pandas_ by Matt Harrison
+* _Practical SQL: A Beginner's Guide to Storytelling with Data_ by DeBarros, Anthony (You may use either the 1st or 2nd edition. The 2nd edition covers some material I will cover that the 1st edition does not. I'll post one version of the suggested readings for each edition.)  
+
 
 Other resources that I recommend:
-* _Effective Pandas_ by Matt Harrison (An excellent read published after I selected textbooks for this course.)
+* _Pandas 1. x Cookbook : Practical Recipes for Scientific Computing, Time Series Analysis, and Exploratory Data Analysis Using Python_ by Harrison, Matt and Petrou, Theodore
 * The Python Documentation: https://docs.python.org/3.7/
 * The Pandas Documentation: https://pandas.pydata.org/docs/
 * The Postgres Documentation: https://www.postgresql.org/docs/
-* The BigQuery Documentation: https://cloud.google.com/bigquery
 
 ## Software
 
 We will use a lot of free, open-source software in this course, including but not limited to Python, Git and Postgres. I'll indicate when you need to install new software in class and sometimes make specific recommendations. If needed, the TAs will assist during TA office hours.
 
-In addition, we'll use GitHub. The free plan will be sufficient for this course.
+In addition, we'll use GitHub. The free plan will be sufficient for this course.  
 
-Finally, we will use Google Cloud Platform (GCP). GCP charges by use of services but offers a $300 credit to new accounts. This _should_ be sufficient for this course. Costs _may_, in some circumstances, exceed the credit amount. We'll provide guidance in keeping costs under control in class. _Please wait to redeem the credit until we instruct you to._
+We'll use Discord as our primary channel for communication for everything except for grades. Announcements will be made on Discord; it is your responsibility to check for them.  
+
+Finally, we will use Google Cloud Platform (GCP). GCP charges by use of services but offers a $300 credit to new accounts. This _should_ be sufficient for this course. Costs _may_, in some circumstances, exceed the credit amount. We'll provide guidance in keeping costs under control in class. _Please wait to redeem the credit until we instruct you to._  
 
 ## Prerequisites
 
@@ -123,10 +126,11 @@ Your participation grade will be based on the extent to which you attend class d
 
 * There will be 8-12 homeworks assigned during the semester.
 * Homework will not be assigned during project weeks but may be due during them.
-* Due dates will be announced as homeworks is assigned. Homeworks will typically be due a week from when they are assigned.
-* Late homework will _not_ be accepted.
+* Homework assignments from previous semesters are posted in the class repository but may change in part or entirely at any time before I assign them for this semester.
+* Due dates will be announced as homeworks is assigned. Homeworks will typically be due a week from when they are assigned. Late homework will _not_ be accepted.
+* For each homework, you may make an additional attempt _once_ after receiving your initial grade. I will assign the due dates for the additional attempt for each homework. Late additional attempts will _not_ be accepted. If you make an additional attempt, its grade will replace your initial grade.
 * The _two_ lowest-scoring homeworks will be dropped to allow you some flexibility throughout the semester.
-* Howeworks will be submitted in _private_ Github repositories by submitting the link to Canvas and inviting the TAs. Homework solutions may not be made public.
+* Homeworks will be submitted in _private_ Github repositories. You must invite the TA(s) and me as collaborators. We'll be able to find your homeworks if you follow the instructions in the assignments. Homework solutions may not be made public. Grades will be posted on Canvas. You will not need to submit homeworks on Canvas.
 
 ### Group Projects and Group Project Presentations
 
@@ -171,7 +175,7 @@ I am committed to creating an accessible and inclusive learning environment cons
 Under Texas Senate Bill 212 (SB 212), the professor and TAs for this course are required to report for further investigation any information concerning incidents of sexual harassment, sexual assault, dating violence, and stalking committed by or against a UT student or employee. Federal law and university policy also requires reporting incidents of sex‐ and gender‐based discrimination and sexual misconduct (collectively known as Title IX incidents). This means we cannot keep confidential information about any such incidents that you share with us. If you need to talk with someone who can maintain confidentiality, please contact University Health Services at https://healthyhorns.utexas.edu/ or the UT Counseling and Mental Health Center at https://cmhc.utexas.edu/. You can also make an appointment with a confidential advocate by emailing advocate@austin.utexas.edu or calling (512) 232-2860. We strongly urge you to make use of these services for any needed support and to report any Title IX incidents to the Title IX Office.
 
 ## Wellbeing Resources:
-Grad school is hard, even when we aren’t in the middle of a pandemic. Take care of yourselves and others.
+Grad school is hard. Take care of yourselves and others.
 * The Counseling and Mental Health Center serves UT’s diverse campus community by providing high quality, innovative and culturally informed mental health programs and services that enhance and support students’ well- being, academic and life goals. To learn more about your counseling and mental health options, call CMHC at (512) 471-3515.
 * Check out the Longhorn Wellness Center, and these self-care Virtual Mindfulness and Stress Reduction Activities.
 * If you are experiencing a mental health crisis, call the CMHC Crisis Line 24/7 at (512) 471-2255.
@@ -190,17 +194,17 @@ Dudler: All
 ## Topic 2 Python and Pandas
 Suggested Readings:
 Downey: 1, 2, 3, 5 (skip recursion topics), 6 (skip recursion topics), 7, 8, 10, 11, 12, 14, 19 (skip Named Tuples), 20
-Harrison and Petrou: 1, 2, 3 (pg 81-95), 4, 5, 6, 7, 8, 9, 11
-
+Harrison: 3-11, 14, 16-28, 32, 33 (except "SQL" section)
 ## Midterm Project
-Project Work Week -- _Tuesday, March 8th_ and _Thursday, March 10th_ will be used for in class project work.  
-Midterm Project Presentations will be on _Tuesday, March 22nd, 3:30pm-5:00pm CT_.
+Project Work Week -- _~Tuesday, March 8th~ TDB_ and _~Thursday, March 10th~ TBD_ will be used for in class project work.  
+Midterm Project Presentations will be on _~Tuesday, March 22nd, 3:30pm-5:00pm CT~ TBD_.
 
 ## Topic 3 SQL and Python with SQL
 Suggested Readings:
-DeBarros: 1, 2, 3, 5, 6, 7, 8, 9
-Harrison and Petrou: 3 (pg 101-113)
+DeBarros (1st Edition): 1, 2, 3, 5, 6, 7, 8, 9  
+DeBarros (2nd Edition): 2, 3, 4, 6, 7, 8, 9, 10, 16  
+Harrison:33 ("SQL" section)
 
 ## Final Project
-Project Work Weeks -- _Tuesday, April 26th_, _Thursday, April 28th_, _Tuesday, May 3rd_ and _Thursday, May 5th_ will be used for in class project work.  
-Final Project Presentations will be on _Friday, May 13, 2:00pm-5:00pm CT_.
+Project Work Weeks -- _Tuesday, November 15th_, _Thursday, November 17th_, _Tuesday, November 29th_ and _Thursday, Dec 1st_ will be used for in class project work.  
+Final Project Presentations will be on _Thursday, December 8th, 3:30pm-6:30pm CT_.
