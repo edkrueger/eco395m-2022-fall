@@ -61,12 +61,12 @@ Here is a non-exhaustive list of resources that I recommend and will suggest rea
 * _Unix for the Beginning Mage_ by Joe Topjian (Freely available online.)
 * _git - the simple guide_ by Roger Dudler (Freely available here: https://rogerdudler.github.io/git-guide/)
 * _Think Python : How to Think Like a Computer Scientist_ By Downey, Allen B. (Get the 2nd edition. The 1st edition is written for Python 2, which is rather unlike Python 3)
-* _Pandas 1. x Cookbook : Practical Recipes for Scientific Computing, Time Series Analysis, and Exploratory Data Analysis Using Python_ by Harrison, Matt and Petrou, Theodore (I'll be using the 2nd edition to suggest reading. The 1st edition uses an older version of Pandas, but should be mostly applicable.)
+* _Effective Pandas_ by Matt Harrison
 * _Practical SQL: A Beginner's Guide to Storytelling with Data_ by DeBarros, Anthony (You may use either the 1st or 2nd edition. The 2nd edition covers some material I will cover that the 1st edition does not. I'll post one version of the suggested readings for each edition.)  
 
 
 Other resources that I recommend:
-* _Effective Pandas_ by Matt Harrison (An excellent read published after I selected textbooks for this course.)
+* _Pandas 1. x Cookbook : Practical Recipes for Scientific Computing, Time Series Analysis, and Exploratory Data Analysis Using Python_ by Harrison, Matt and Petrou, Theodore
 * The Python Documentation: https://docs.python.org/3.7/
 * The Pandas Documentation: https://pandas.pydata.org/docs/
 * The Postgres Documentation: https://www.postgresql.org/docs/
@@ -197,8 +197,7 @@ Dudler: All
 ## Topic 2 Python and Pandas
 Suggested Readings:
 Downey: 1, 2, 3, 5 (skip recursion topics), 6 (skip recursion topics), 7, 8, 10, 11, 12, 14, 19 (skip Named Tuples), 20
-Harrison and Petrou: 1, 2, 3 (pg 81-95), 4, 5, 6, 7, 8, 9, 11
-
+Harrison: 3-11, 14, 16-28, 32, 33 (except "SQL" section)
 ## Midterm Project
 Project Work Week -- _~Tuesday, March 8th~ TDB_ and _~Thursday, March 10th~ TBD_ will be used for in class project work.  
 Midterm Project Presentations will be on _~Tuesday, March 22nd, 3:30pm-5:00pm CT~ TBD_.
@@ -206,7 +205,7 @@ Midterm Project Presentations will be on _~Tuesday, March 22nd, 3:30pm-5:00pm CT
 ## Topic 3 SQL and Python with SQL
 Suggested Readings:
 DeBarros: 1, 2, 3, 5, 6, 7, 8, 9
-Harrison and Petrou: 3 (pg 101-113)
+Harrison:33 ("SQL" section)
 
 ## Final Project
 Project Work Weeks -- _Tuesday, November 15th_, _Thursday, November 17th_, _Tuesday, November 29th_ and _Thursday, Dec 1st_ will be used for in class project work.  
