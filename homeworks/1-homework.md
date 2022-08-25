@@ -11,7 +11,7 @@ c) Clone the repository locally
 ## Problem 1 - (10 points)
 You'll commit your first file to GitHub.  
 
-We'll grade this problem by checking if the file exists on GitHub and if it was added with a commit through the git CLI.  
+We'll grade this problem by checking if the file exists on GitHub and if it was added with a commit through the git CLI. We'll check for commits on the `main` branch.
 
 a) Create a file at the top of your repository with "Hello World" in it by running: `echo "Hello World" > hello.txt`  
 
@@ -24,7 +24,7 @@ d) Push the file to GitHub by running: `git push`
 ## Problem 2 - (60 points)
 You'll get used to using bash and git in this problem. You'll create files and folders representing your home. You'll create a shell script to make your "home" automatically. You'll push the results to GitHub in stages.  
 
-We'll grade this problem by:
+We'll grade this problem by looking at the `main` branch and checking:
 * Checking if your "home" exists
 * Checking if your script generates your "home"
 * Checking for the absence of extraneous files.
