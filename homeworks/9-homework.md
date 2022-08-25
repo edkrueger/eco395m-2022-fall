@@ -39,7 +39,7 @@ k) Run the checker by running `python code/checker.py`. If you've configured eve
 ## Problem 2 - (100 points)
 You'll solve the SQL problems in `code/queries.py`. You can check your answers by running `python code/check.py`.
 
-When grading this problem...  
+When grading this problem, we'll execute the code by cloning your repo, running `cd eco395m-homework-9` to open your repository and running `python3 code/queries.py`. This will execute the code on the `main` branch.    
 
 100 points will be awarded in proportion to the number of exercises you successfully solve. An exercise will be successfully solved if your solution passes all of the cases. A solution that does not pass all of the cases will not be considered successfully solved.  
 
