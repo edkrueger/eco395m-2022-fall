@@ -33,6 +33,8 @@ You'll solve the SQL problems in `code/queries.py`. You can check your answers b
 
 When grading this problem...  
 
+When grading this problem, we'll execute the code by cloning your repo, running `cd eco395m-homework-7` to open your repository and running `python3 code/queries.py`. This will execute the code on the `main` branch.  
+
 100 points will be awarded in proportion to the number of exercises you successfully solve. An exercise will be successfully solved if your solution passes all of the cases. A solution that does not pass all of the cases will not be considered successfully solved.  
 
 _You are allowed to skip up to 2 exercises. There are 12 exercises in total. So, submissions with at least 10 successfully solved exercises will receive all 100 points._  

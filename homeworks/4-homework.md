@@ -9,7 +9,7 @@ You'll solve the coding bat exercises in `warmup-2.py`, `list-2.py` and `string-
 
 When grading this problem...  
 
-100 points will be awarded in proportion to the number of exercises you successfully solve. An exercise will be successfully solved if your solution passes all of the cases. A solution that does not pass all of the cases will not be considered successfully solved.  
+100 points will be awarded in proportion to the number of exercises you successfully solve on the `main` branch. An exercise will be successfully solved if your solution passes all of the cases. A solution that does not pass all of the cases will not be considered successfully solved.  
 
 _You are allowed to skip up to 3 exercises. There are 21 exercises total. So, submissions with at least 18 successfully solved exercises will receive all 100 points._  
 

@@ -17,7 +17,7 @@ When grading this problem...
 
 20 points will be awarded for following the git instructions. We'll check the git history for three merges into the `main` branch. We won't count your commits, but you should have one for each exercise.  
 
-80 points will be awarded in proportion to the number of exercises you successfully solve. An exercise will be successfully solved if your solution passes all of the cases. A solution that does not pass all of the cases will not be considered successfully solved.  
+80 points will be awarded in proportion to the number of exercises you successfully solve on the `main` branch. An exercise will be successfully solved if your solution passes all of the cases. A solution that does not pass all of the cases will not be considered successfully solved.  
 
 _You are allowed to skip up to 4 exercises. There are 28 exercises total. So, submissions with at least 24 successfully solved exercises will receive all 80 points._  
 
