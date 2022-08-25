@@ -50,6 +50,8 @@ You'll fork the class repository and add a text file introducing yourself. Then 
 
 We'll grade this problem by checking for the existence of the Pull Request.  
 
+_*YOU SHOULD LEAVE THIS PULL REQUEST OPEN FOR THE ENTIRE COURSE! WE NEED IT TO GRADE THIS AND FUTURE HOMEWORKS.*_
+
 a) Navigate to the class repository and make a fork.  
 b) Clone your fork locally.  
 c) Make a folder called `introductions`.  
