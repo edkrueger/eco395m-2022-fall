@@ -5,7 +5,7 @@ You will _not_ submit your fork in Problem 3, nor will you invite us to your for
 ## Problem 0 - (0 points)
 Some initial setup.  
 a) Create a new private repository called `eco395m-homework-1` on GitHub  
-b) Select "Settings>Collaborators>" and add "edkrueger", "ericschulman" and "mynameisphatcao" as collaborators  
+b) Select "Settings>Collaborators>" and add "edkrueger" and TAs.  
 c) Clone the repository locally  
 
 ## Problem 1 - (10 points)
