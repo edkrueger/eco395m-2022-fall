@@ -14,7 +14,7 @@ c) Select "Settings>Collaborators>" and add "edkrueger", "ericschulman" and "myn
 ## Problem 1 - (50 points)
 You'll aggregate 2020 county-level election results into state-level results.
 
-When grading this problem, we'll execute the code by cloning your repo, running `cd eco395m-homework-6` repository and running `python3 code/election_2020.py`.  
+When grading this problem, we'll execute the code by cloning your repo, running `cd eco395m-homework-6` to open your repository and running `python3 code/election_2020.py`. This will execute the code on the `main` branch.  
 
 Depending on your Python installation, you may need to run it with `python code/election_2020.py`.  
 Because Python paths are relative to the location the _script is executed from_, it is essential to follow this instruction for execution.  
