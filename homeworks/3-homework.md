@@ -5,7 +5,7 @@ You must submit a URL to your _private_ GitHub repository to receive credit. You
 You'll use the repository you created in Homework 2. If you did not attempt Homework 2, see Homework 2's Problem 0 for instructions.
 
 ## Problem 1 - (100 points)
-You'll solve the coding bat exercises in `string-1.py`, `list-1.py`. You can check your answers by running each of the scripts.  
+You'll solve the coding bat exercises in `string-1.py`, `list-1.py`. You can check your answers by running each of the scripts on the `main` branch.  
 
 When grading this problem...  
 
