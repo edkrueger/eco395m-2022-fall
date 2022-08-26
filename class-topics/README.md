@@ -1,1 +1,1 @@
-Find the CodingBat problems we solved in class here: https://github.com/edkrueger/eco395m-codingbat-solutions
+[Click here for the bash/git demo we did in class](https://github.com/edkrueger/eco395m-bash-demo-2022-fall)
