@@ -1,5 +1,5 @@
 ## Homework 4
-You must submit a URL to your _private_ GitHub repository to receive credit. You must also add me (edkrueger) and the TAs ([Click here for TA GitHub usernames](/ta-githubs.txt)) as collaborators.  
+You must also add me (edkrueger) and the TAs ([Click here for TA GitHub usernames](/ta-githubs.txt)) as collaborators.  
 
 ## Problem 0 - (0 points)
 You'll use the repository you created in Homework 2 and used in Homework 3. If you did not attempt Homework 2 or Homework 3, see Homework 2's Problem 0 for instructions.
