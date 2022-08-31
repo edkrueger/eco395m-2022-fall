@@ -1,0 +1,6 @@
+Hi! My name is Bruce Hu.
+I'm 22 years old, and I was a Quantitative Finance and Econometrics major in undergrad.
+I chose to study Economics as I think it allows me to access more aspects of the society.
+A large portion of my undergrad study focused on Econometrics, and that's why I'm interested in Data Science.
+I believe that statistics/Data Science are the only rational ways to analyze the past and predict the future.
+I have a lot to learn about programming and I'm glad to be here with everyone.
