@@ -1,0 +1,5 @@
+Hello, my name is Jinhyung Park, but you can call me Paul. I am from South Korea but have lived in various parts of the world including Canada, China, and the US. I studied accounting in my 
+undergrad and worked at an accounting consulting firm in Philadelphia for the past three years. I am interested in studyig various economic-related policies and their effects on the society. As 
+such, I am considering pursuing PhD in fields like public policy, political economy, and law and economics. This is my first time delving into the world of programming and data, so I am very 
+excited. I hope the skills I pick up from this course will serve me well in my career trajectory. In my free time, I love to play and watch soccer. My favorite soccer team is Arsenal in the EPL. I 
+would love to go watch Austin FC game in the near future. 
