@@ -4,11 +4,11 @@ You must have a _private_ repository with the name specified. You must also add 
 ## Problem 0 - (0 points)
 You'll clone a repo with several SQL exercises.
 
-a) Go to the repo: https://github.com/edkrueger/eco395m-homework-8
+a) Go to the repo: https://github.com/edkrueger/eco395m-homework-chinook  
 
-b) Select "Use this template" and create a _private_ repository with the name "eco395m-homework-8".  
+b) Select "Use this template" and create a _private_ repository with the name "eco395m-homework-chinook".  
 
-c) Select "Settings>Collaborators>" and add "edkrueger", "ericschulman" and "mynameisphatcao" as collaborators.    
+c) Select "Settings>Collaborators>" and add "edkrueger"and the TA(s) as collaborators.  
 
 ## Problem 1 - (0 points)
 
@@ -33,7 +33,7 @@ You'll solve the SQL problems in `code/queries.py`. You can check your answers b
 
 When grading this problem...  
 
-When grading this problem, we'll execute the code by cloning your repo, running `cd eco395m-homework-7` to open your repository and running `python3 code/queries.py`. This will execute the code on the `main` branch.  
+When grading this problem, we'll execute the code by cloning your repo, running `cd eco395m-homework-chinook` to open your repository and running `python3 code/queries.py`. This will execute the code on the `main` branch.  
 
 100 points will be awarded in proportion to the number of exercises you successfully solve. An exercise will be successfully solved if your solution passes all of the cases. A solution that does not pass all of the cases will not be considered successfully solved.  
 
