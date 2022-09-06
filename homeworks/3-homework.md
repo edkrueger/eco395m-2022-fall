@@ -11,7 +11,7 @@ When grading this problem...
 
 100 points will be awarded in proportion to the number of exercises you successfully solve. An exercise will be successfully solved if your solution passes all of the cases. A solution that does not pass all of the cases will not be considered successfully solved.  
 
-_You are allowed to skip up to 7 exercises. There are 44 exercises total. So, submissions with at least 37 successfully solved exercises will receive all 100 points._  
+_You are allowed to skip up to 3 exercises per file. There are 44 exercises in total. So, submissions with at least 29 successfully solved exercises and no more than 3 skipped exercises per file will receive all 100 points._  
 
 a) Create a branch called `string-1` and check out the branch.  
 b) For each function in `string-1.py`, modify the function so that all cases pass and commit your solution. _Do not modify the code under `if__name__=="__main__":`. Do not modify the code in `_check.py`. Do not hard code solutions to test cases in your functions. These will be considered academic dishonesty, and you will receive a 0 for this homework._  
