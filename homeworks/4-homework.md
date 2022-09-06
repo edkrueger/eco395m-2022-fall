@@ -5,16 +5,16 @@ You must have a _private_ repository with the name specified. You must also add 
 
 You'll clone a repo that has the datasets, some structure and some (very minimal) starter code.
 
-a) Go to the repo: https://github.com/edkrueger/eco395m-homework-5   
+a) Go to the repo: https://github.com/edkrueger/eco395m-homework-shakespeare  
 
-b) Select "Use this template" and create a _private_ repository with the name "eco395m-homework-5".  
+b) Select "Use this template" and create a _private_ repository with the name "eco395m-homework-shakespeare".  
 
-c) Select "Settings>Collaborators>" and add "edkrueger", "ericschulman" and "mynameisphatcao" as collaborators.    
+c) Select "Settings>Collaborators>" and add "edkrueger" and the TAs.  
 
 ## Problem 1 - (100 points)
 You'll analyze the word frequencies of the complete works of William Shakespeare.
 
-When grading this problem, we'll execute the code by cloning your repo, running `cd eco395m-homework-5` to open your repository and running `python3 code/shakespeare.py`. This will execute the code on the `main` branch.  
+When grading this problem, we'll execute the code by cloning your repo, running `cd eco395m-homework-shakespeare` to open your repository and running `python3 code/shakespeare.py`. This will execute the code on the `main` branch.  
 Depending on your Python installation, you may need to run it with `python3 code/shakespeare.py`.  
 Because Python paths are relative to the location the _script is executed from_, it is essential to follow this instruction for execution.  
 If your code does not execute properly with this command, it will be considered incomplete.  
