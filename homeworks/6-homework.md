@@ -5,9 +5,9 @@ You must have a _private_ repository with the name specified. You must also add 
 
 You'll clone a repo that has the datasets, some structure and some (very minimal) starter code.  
 
-a) Go to the repo: https://github.com/edkrueger/eco395m-homework-7
+a) Go to the repo: https://github.com/edkrueger/eco395m-homework-bookstoscrape  
 
-b) Select "Use this template" and create a _private_ repository with the name "eco395m-homework-7".  
+b) Select "Use this template" and create a _private_ repository with the name "eco395m-homework-bookstoscrape".  
 
 c) Select "Settings>Collaborators>" and add "edkrueger", "ericschulman" and "mynameisphatcao" as collaborators.  
 
@@ -27,7 +27,7 @@ The example comes from this [book](http://books.toscrape.com/catalogue/a-light-i
 
 You'll write the data to a CSV and a JSONL. See [this](https://jsonlines.org/) for the JSONL specification.  
 
-When grading this problem, we'll execute the code by cloning your repo, running `cd eco395m-homework-7` to open your repository and running `python code/scrape.py`.
+When grading this problem, we'll execute the code by cloning your repo, running `cd eco395m-homework-bookstoscrape` to open your repository and running `python code/scrape.py`.
 
 Your code will be executed in a Python environment containing only the Standard Library and the packages specified in `requirements.txt`. Install them with `pip install -r requirements.txt`.   
 
