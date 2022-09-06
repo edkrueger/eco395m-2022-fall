@@ -5,16 +5,16 @@ You must have a _private_ repository with the name specified. You must also add 
 
 You'll clone a repo that has the datasets, some structure and some (very minimal) starter code.  
 
-a) Go to the repo: https://github.com/edkrueger/eco395m-homework-6   
+a) Go to the repo: https://github.com/edkrueger/eco395m-homework-election    
 
-b) Select "Use this template" and create a _private_ repository with the name "eco395m-homework-6".  
+b) Select "Use this template" and create a _private_ repository with the name "eco395m-homework-election".  
 
 c) Select "Settings>Collaborators>" and add "edkrueger", "ericschulman" and "mynameisphatcao" as collaborators.    
 
 ## Problem 1 - (50 points)
 You'll aggregate 2020 county-level election results into state-level results.
 
-When grading this problem, we'll execute the code by cloning your repo, running `cd eco395m-homework-6` to open your repository and running `python3 code/election_2020.py`. This will execute the code on the `main` branch.  
+When grading this problem, we'll execute the code by cloning your repo, running `cd eco395m-homework-election` to open your repository and running `python3 code/election_2020.py`. This will execute the code on the `main` branch.  
 
 Depending on your Python installation, you may need to run it with `python code/election_2020.py`.  
 Because Python paths are relative to the location the _script is executed from_, it is essential to follow this instruction for execution.  
@@ -45,7 +45,7 @@ d) Write to a CSV file to `artifacts/election_report.csv` with columns "year", "
 ## Problem 2 - (50 points)
 You'll aggregate 2020 county-level election results into state-level results. But this time with Pandas.  pecifically Pandas 1.3.5, which is on GCP Vertex AI Notebook and we'll use this version to grade.  
 
-When grading this problem, we'll execute the code by cloning your repo, running `cd eco395m-homework-6` repository and running `python3 code/pandas_election_2020.py `.  
+When grading this problem, we'll execute the code by cloning your repo, running `cd eco395m-homework-election` repository and running `python3 code/pandas_election_2020.py `.  
 Depending on your Python installation, you may need to run it with `python3 code/pandas_election_2020.py`.  
 Because Python paths are relative to the location the _script is executed from_, it is essential to follow this instruction for execution.  
 If your code does not execute properly with this command, it will be considered incomplete.  
