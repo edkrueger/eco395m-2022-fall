@@ -1,4 +1,4 @@
-## Homework 6
+## Homework 4
 You must have a _private_ repository with the name specified. You must also add me (edkrueger) and the TAs ([Click here for TA GitHub usernames](/ta-githubs.txt)) as collaborators.  
 
 ## Problem 0 - (0 points)
