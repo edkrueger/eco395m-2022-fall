@@ -5,64 +5,61 @@ You must have a _private_ repository with the name specified. You must also add 
 
 You'll clone a repo that has the datasets, some structure and some (very minimal) starter code.  
 
-a) Go to the repo: https://github.com/edkrueger/eco395m-homework-6   
+a) Go to the repo: https://github.com/edkrueger/eco395m-homework-bookstoscrape  
 
-b) Select "Use this template" and create a _private_ repository with the name "eco395m-homework-6".  
+b) Select "Use this template" and create a _private_ repository with the name "eco395m-homework-bookstoscrape".  
 
-c) Select "Settings>Collaborators>" and add "edkrueger", "ericschulman" and "mynameisphatcao" as collaborators.    
+c) Select "Settings>Collaborators>" and add "edkrueger", "ericschulman" and "mynameisphatcao" as collaborators.  
 
-## Problem 1 - (50 points)
-You'll aggregate 2020 county-level election results into state-level results.
+## Problem 1 - (100 points)
+You'll scrape the website http://books.toscrape.com/, collecting the following fields: 
 
-When grading this problem, we'll execute the code by cloning your repo, running `cd eco395m-homework-6` to open your repository and running `python3 code/election_2020.py`. This will execute the code on the `main` branch.  
+| Field | Type | Example |
+| - | - | - |
+| "upc" | str | "a897fe39b1053632" |
+| "title" | str | "A Light in the Attic" |
+| "category" | str | "Poetry" |
+| "description" | str | "It's hard to imagine a world" (trimmed here) |
+| "price_gbp" | float | 51.77 |
+| "stock" | int | 22 |
 
-Depending on your Python installation, you may need to run it with `python code/election_2020.py`.  
+The example comes from this [book](http://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html).  
+
+You'll write the data to a CSV and a JSONL. See [this](https://jsonlines.org/) for the JSONL specification.  
+
+When grading this problem, we'll execute the code by cloning your repo, running `cd eco395m-homework-bookstoscrape` to open your repository and running `python code/scrape.py`.
+
+Your code will be executed in a Python environment containing only the Standard Library and the packages specified in `requirements.txt`. Install them with `pip install -r requirements.txt`.   
+
 Because Python paths are relative to the location the _script is executed from_, it is essential to follow this instruction for execution.  
 If your code does not execute properly with this command, it will be considered incomplete.  
-We'll check for a CSV file called `election_report.csv` at the location, relative to the top level of the repo, of `artifacts/election_report.csv`.  
+We'll check for a CSV file called `results.csv` at the location, relative to the top level of the repo, of `artifacts/results.csv`.
+We'll also check for a JSONL file called `results.jsonl` at the location, relative to the top level of the repo, of `artifacts/results.jsonl`.
 
 The expectation is that your code generates the output when we run it, not just that the file exists. This means that if the code does not run, you will receive a 0.  
+We also expect that your code executes in under 5 minutes, if it does not, you will receive a 0.  
 
-You'll get 20 points if the generated CSV follows the format specified in `artifacts/example_election_report.csv`. In particular, this means that the CSV must have the same header as the example. If it does not, you will receive a 0.  
+You'll get 10 points if the generated CSV follows the format specified in `artifacts/example_results.csv`. In particular, this means that the CSV must have the same header as the example. If it does not, you will receive a 0 for this part.  
+You'll get 10 points if the generated JSONL follows the format specified in `artifacts/example_results.jsonl`. In particular, this means that the CSV must have the same fieldnames as the example. If it does not, you will receive a 0 for this part. Note, that since JSONL lines are JSON Objects, they are considered unstructured, so the order in which the key-value pairs appear does not matter.  
 
-You'll get 10 points if the CSV is in the correct order.
-We'll spot-check your CSV's word counts for 3 state/candidate combinations. If their counts all match the example exactly, you'll get 20 points. Otherwise, if they are all within +/- 20% of the example's counts, you'll get 10 points, but we'll have to have a recount. Data is real election data, so you can verify your results against the actual outcomes.
+You'll get 10 additional points if your CSV contains all 1000 books and 0 points otherwise.  
+You'll get 10 additional points if your JSONL contains all 1000 books and 0 points otherwise.  
 
-Do not import any modules _other than modules found in the [Python Standard Library](https://docs.python.org/3/library/)_ for this problem; if you do, You will receive a 0 for this problem.  
-In particular, do not use Pandas for this problem.  
-The point of this problem is to learn Python and some of its standard library.  
+We'll spot-check 3 of your CSV's books for an exact match on all values for all fields _except_ "description". If all of the fields checked match exactly for all 3 book, you'll receive 30 points and 0 points otherwise.  
+We'll spot-check 3 of your JSONL's books for an exact match on all values for all fields _except_ "description". If all of the fields checked match exactly for all 3 book, you'll receive 30 points and 0 points otherwise.  
 
-_For more realistic problems like this one, there are often many different ways to implement the same requirements.
-There is some starter code in the template that you can decide to use entirely, partially, or not at all.  
-In any case, if you follow the instructions, you should get the same results I do._
+_For more realistic problems like this one, there are often many different ways to implement the same requirements. You are not required to use the starter code, but if you do, the steps will follow the order below._
 
-a) Count the votes for each combination of year, state code and candidate while ignoring years that aren't 2020. (Hint: Any immutable type can be a dictionary key in Python; in particular, this means that tuples can be dictionary keys.)  
-b) Convert your Dictionary to a list of rows containing year, state code, candidate and total votes so that it is ready to sort.  
-c) Sort your list of rows such that the results are in alphabetical order by state code and, for each state, the row are ordered by descending number of votes. In other words, for each state, the candidate with the most votes should appear first. (Hint: There are essentially two approaches to this part. One approach to this problem is to take advantage of the fact that the sort that the `sorted` function uses is a stable sort. A stable sort is a sort that preserves the order of elements where the values of a sort key are the same. Therefore we can sort the list twice, with different keys, to achieve our goal. Another more challenging but potentially more performant option is to create a function that ranks the rows in the correct order and use this as the sort key. This approach is essentially the same as making a utility function that represents safety-first or lexicographical preferences. If you take this approach, note that you can access character codes (which are ordered) for a character with the `ord` function.)  
-d) Write to a CSV file to `artifacts/election_report.csv` with columns "year", "state_code", "candidate" and "votes". For an example, see `artifacts/example_election_report.csv`  
+A function called `get_soup` is already implemented for you in the starter code. It takes a URL and returns a `bs4.BeautifulSoup` instance representing the webpage at the URL.  
+a) Write `scrape_page`, a function to scrape all of the book URLs from a page. There is a test to check if this function works properly. You can execute it by running `python code/scrape_pages.py`. (Hint: If there is no page with the given number, have this function return an empty list.)  
+b) Write `scrape_all_pages`, a function to scrape all of the book URLs from all pages using `scrape_page`. (Hint: This function should end when it encounters a page that has no books.  I.e. then scrape_page returns an empty list.)  
+c) Implement `extract_price` and `extract_stock` to clean the strings in the format that appears on the books. There are tests to check if this function works properly. You can execute them by running `python code/scrape_books.py`.  
+d) Implement `get_category`, `get_title`, `get_description` and `get_product_information` that take a soup object that represents a book. There are tests for these; run them as in (c). 
+e) Implement `scrape_book` which uses the functions from (d) to scrape a book given its URL. There is a test for this; run it as in (c).  
+f) Implement `scrape_books` which uses `scrape_book` to scrape a list of books given their URLs.
+e) Implement `scrape` which uses `scrape_all_pages` and `scrape_books` to scrape all books.  
+f) Write `write_books_to_csv` to save the books to CSV.  
+g) Write `write_books_to_jsonl` to save the books to JSONL. Be sure to use `encoding="utf-8"`.  
 
 
-## Problem 2 - (50 points)
-You'll aggregate 2020 county-level election results into state-level results. But this time with Pandas.  pecifically Pandas 1.3.5, which is on GCP Vertex AI Notebook and we'll use this version to grade.  
 
-When grading this problem, we'll execute the code by cloning your repo, running `cd eco395m-homework-6` repository and running `python3 code/pandas_election_2020.py `.  
-Depending on your Python installation, you may need to run it with `python3 code/pandas_election_2020.py`.  
-Because Python paths are relative to the location the _script is executed from_, it is essential to follow this instruction for execution.  
-If your code does not execute properly with this command, it will be considered incomplete.  
-We'll check for a CSV file called `election_report_pandas.csv` at the location, relative to the top level of the repo, of `artifacts/election_report_pandas.csv`.  
-The expectation is that your code generates the output when we run it, not just that the file exists.  
-
-You'll get 20 points if the generated CSV follows the format specified in `artifacts/example_election_report.csv`. In particular, this means that the CSV must have the same header as the example. If it does not, you will receive a 0. This means that if the code does not run, you will receive a 0.  
-
-You'll get 10 points if the CSV is in the correct order.
-We'll spot-check your CSV's word counts for 3 state/candidate combinations. If their counts all match the example exactly, you'll get 20 points. Otherwise, if they are all within +/- 20% of the example's counts, you'll get 10 points, but we'll have to have a recount. Data is real election data, so you can verify your results against the actual outcomes.
-
-Use Pandas for this problem!
-
-_For more realistic problems like this one, there are often many different ways to implement the same requirements. That said, it is possible to solve this problem as a single method chain pipe. You are encouraged to do so._
-
-a) Count the votes for each year, state code, candidate combination while ignoring years that aren't 2020.  
-b) Sort your list of rows such that the results are in alphabetical order by state code and, for each state, the row are ordered by descending number of votes. In other words, for each state, the candidate with the most votes should appear first.  
-c) Write to a CSV file to `artifacts/election_report_pandas.csv
-` with columns "year", "state_code", "candidate" and "votes". For an example, see `artifacts/example_election_report.csv`  
-d) You can check that the CSV from this problem is identical to the last one by running `python3 code/compare.py`  
