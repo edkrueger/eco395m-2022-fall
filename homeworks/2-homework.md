@@ -1,5 +1,5 @@
 ## Homework 2
-You must submit your GitHub username to Canvas. You must have a _private_ repository with the name specified. You must also add me (edkrueger) and the TAs ([Click here for TA GitHub usernames](/ta-githubs.txt)) as collaborators.  
+You must have a _private_ repository with the name specified. You must also add me (edkrueger) and the TAs ([Click here for TA GitHub usernames](/ta-githubs.txt)) as collaborators.  
 
 ## Problem 0 - (0 points)
 You'll clone a repo with several Python exercises.
@@ -8,7 +8,7 @@ a) Go to the repo: https://github.com/edkrueger/eco395m-codingbat
 
 b) Select "Use this template" and create a _private_ repository with the name "eco395m-codingbat".  
 
-c) Select "Settings>Collaborators>" and add "edkrueger", "ericschulman" and "mynameisphatcao" as collaborators.    
+c) Select "Settings>Collaborators>" and add "edkrueger" and the TA(s).
 
 ## Problem 1 - (100 points)
 You'll solve the coding bat exercises in `warmup-1.py`, `logic-1.py` and `logic-2.py`. You can check your answers by running each of the scripts.  

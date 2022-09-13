@@ -1,65 +1,46 @@
-## Homework 7
-You must submit your GitHub username to Canvas. You must have a _private_ repository with the name specified. You must also add me (edkrueger) and the TAs ([Click here for TA GitHub usernames](/ta-githubs.txt)) as collaborators.  
+# Homework 7
+You must have a _private_ repository with the name specified. You must also add me (edkrueger) and the TAs ([Click here for TA GitHub usernames](/ta-githubs.txt)) as collaborators.  
 
 ## Problem 0 - (0 points)
+You'll clone a repo with several SQL exercises.
 
-You'll clone a repo that has the datasets, some structure and some (very minimal) starter code.  
+a) Go to the repo: https://github.com/edkrueger/eco395m-homework-chinook  
 
-a) Go to the repo: https://github.com/edkrueger/eco395m-homework-7
+b) Select "Use this template" and create a _private_ repository with the name "eco395m-homework-chinook".  
 
-b) Select "Use this template" and create a _private_ repository with the name "eco395m-homework-7".  
+c) Select "Settings>Collaborators>" and add "edkrueger"and the TA(s) as collaborators.  
 
-c) Select "Settings>Collaborators>" and add "edkrueger", "ericschulman" and "mynameisphatcao" as collaborators.  
+## Problem 1 - (0 points)
 
-## Problem 1 - (100 points)
-You'll scrape the website http://books.toscrape.com/, collecting the following fields: 
+You'll make a database instance and a database, then you will connect to it with DBeaver (or another SQL client of your choice) and run a script to create and load the tables. You'll also configure the environmental variables so that the checker, written in Python, can execute SQL against your database.
 
-| Field | Type | Example |
-| - | - | - |
-| "upc" | str | "a897fe39b1053632" |
-| "title" | str | "A Light in the Attic" |
-| "category" | str | "Poetry" |
-| "description" | str | "It's hard to imagine a world" (trimmed here) |
-| "price_gbp" | float | 51.77 |
-| "stock" | int | 22 |
+a) Make a database instance as we did in class. If you've already done this, you can use the one you already have. Go to GCP SQL and create a PostgreSQL 13 database instance. Make sure that you whitelist the IPs in block 0.0.0.0/0. Picking the lowest spec for this instance will be sufficient for this problem. Save your password!  
 
-The example comes from this [book](http://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html).  
+b) Use GCP SQL to create a database called `chinook`. You can do this in the "Databases" tab.
 
-You'll write the data to a CSV and a JSONL. See [this](https://jsonlines.org/) for the JSONL specification.  
+c) Connect to your database with DBeaver. Your host can be found in GCP SQL on the "Overview" tab. The port will be the default Postgres port: `5432`. You can use the default postgres username, `postgres`, and the password you set in the last step. Connect with database as `chinook`.
 
-When grading this problem, we'll execute the code by cloning your repo, running `cd eco395m-homework-7` to open your repository and running `python code/scrape.py`.
+d) In DBeaver, Navigate to "chinook" > "Databases" > "chinook". Right-click the database `chinook` -- its the one that looks like a silo. Then select "SQL Editor" > "New SQL Script".
 
-Your code will be executed in a Python environment containing only the Standard Library and the packages specified in `requirements.txt`. Install them with `pip install -r requirements.txt`.   
+f) Copy the code in `setup/chinook.sql` into you SQL editor and execute it.
 
-Because Python paths are relative to the location the _script is executed from_, it is essential to follow this instruction for execution.  
-If your code does not execute properly with this command, it will be considered incomplete.  
-We'll check for a CSV file called `results.csv` at the location, relative to the top level of the repo, of `artifacts/results.csv`.
-We'll also check for a JSONL file called `results.jsonl` at the location, relative to the top level of the repo, of `artifacts/results.jsonl`.
+e) Before you can run the checker, you must give it the right credentials to connect to your database. Copy the file `demo.env` to `.env` and modify it by providing the credentials you found in step (c). An easy way to do this is to run `cp demo.env .env` and then modify the file.  
 
-The expectation is that your code generates the output when we run it, not just that the file exists. This means that if the code does not run, you will receive a 0.  
-We also expect that your code executes in under 5 minutes, if it does not, you will receive a 0.  
+f) Run the checker by running `python code/checker.py`. If you've configured everything properly, you'll see an error like `can't execute an empty query` because your queries haven't been written yet. If your connection configuration is incorrect you receive an error message like `connection to server at "123.456.789.101", port 5432 failed: FATAL:  password authentication failed for user "postgres"`.
 
-You'll get 10 points if the generated CSV follows the format specified in `artifacts/example_results.csv`. In particular, this means that the CSV must have the same header as the example. If it does not, you will receive a 0 for this part.  
-You'll get 10 points if the generated JSONL follows the format specified in `artifacts/example_results.jsonl`. In particular, this means that the CSV must have the same fieldnames as the example. If it does not, you will receive a 0 for this part. Note, that since JSONL lines are JSON Objects, they are considered unstructured, so the order in which the key-value pairs appear does not matter.  
+## Problem 2 - (100 points)
+You'll solve the SQL problems in `code/queries.py`. You can check your answers by running `python code/check.py`.
 
-You'll get 10 additional points if your CSV contains all 1000 books and 0 points otherwise.  
-You'll get 10 additional points if your JSONL contains all 1000 books and 0 points otherwise.  
+When grading this problem...  
 
-We'll spot-check 3 of your CSV's books for an exact match on all values for all fields _except_ "description". If all of the fields checked match exactly for all 3 book, you'll receive 30 points and 0 points otherwise.  
-We'll spot-check 3 of your JSONL's books for an exact match on all values for all fields _except_ "description". If all of the fields checked match exactly for all 3 book, you'll receive 30 points and 0 points otherwise.  
+When grading this problem, we'll execute the code by cloning your repo, running `cd eco395m-homework-chinook` to open your repository and running `python3 code/queries.py`. This will execute the code on the `main` branch.  
 
-_For more realistic problems like this one, there are often many different ways to implement the same requirements. You are not required to use the starter code, but if you do, the steps will follow the order below._
+100 points will be awarded in proportion to the number of exercises you successfully solve. An exercise will be successfully solved if your solution passes all of the cases. A solution that does not pass all of the cases will not be considered successfully solved.  
 
-A function called `get_soup` is already implemented for you in the starter code. It takes a URL and returns a `bs4.BeautifulSoup` instance representing the webpage at the URL.  
-a) Write `scrape_page`, a function to scrape all of the book URLs from a page. There is a test to check if this function works properly. You can execute it by running `python code/scrape_pages.py`. (Hint: If there is no page with the given number, have this function return an empty list.)  
-b) Write `scrape_all_pages`, a function to scrape all of the book URLs from all pages using `scrape_page`. (Hint: This function should end when it encounters a page that has no books.  I.e. then scrape_page returns an empty list.)  
-c) Implement `extract_price` and `extract_stock` to clean the strings in the format that appears on the books. There are tests to check if this function works properly. You can execute them by running `python code/scrape_books.py`.  
-d) Implement `get_category`, `get_title`, `get_description` and `get_product_information` that take a soup object that represents a book. There are tests for these; run them as in (c). 
-e) Implement `scrape_book` which uses the functions from (d) to scrape a book given its URL. There is a test for this; run it as in (c).  
-f) Implement `scrape_books` which uses `scrape_book` to scrape a list of books given their URLs.
-e) Implement `scrape` which uses `scrape_all_pages` and `scrape_books` to scrape all books.  
-f) Write `write_books_to_csv` to save the books to CSV.  
-g) Write `write_books_to_jsonl` to save the books to JSONL. Be sure to use `encoding="utf-8"`.  
+_You are allowed to skip up to 2 exercises. There are 12 exercises in total. So, submissions with at least 10 successfully solved exercises will receive all 100 points._  
 
+a) For each exercise in `queries.py`. Develop your solution in DBeaver and when you believe it is correct, copy it and paste it into the triple-quoted string under the exercise in `queries.py`. Check your solution by running `python code/check.py`, modify your code as needed and try again. (Hint: If you are confused about a test case, feel free to _read_ the test code -- just don't modify the test code!)  
+b) Repeat for the other exercises.
 
-
+_Do not modify the code in `check.py`. Do not hard code solutions to test cases in your queries. These will be considered academic dishonesty, and you will receive a 0 for this homework._  
+_Do not import anything or write any code other than the SQL in the query strings in `query.py`. You will receive a 0 for this homework if you do. The point of these exercises is to learn SQL._  
