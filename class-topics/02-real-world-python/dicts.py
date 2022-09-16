@@ -60,8 +60,8 @@ for e in d2.items():
 	print(f"Key: {e[0]}")
 	print(f"Value: {e[1]}")
 
+print(50 * "*")
 for k, v in d2.items():
-	print(e)
 	print(f"Key: {k}")
 	print(f"Value: {v}")
 
