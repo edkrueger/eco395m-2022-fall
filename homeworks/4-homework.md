@@ -38,7 +38,7 @@ In particular, do not use Pandas for this assignment.
 The point of these exercises is to learn Python and some of its standard library.  
 
 _For more realistic problems like this one, there are often many different ways to implement the same requirements.
-There is some starter code in the template that you can decide to use entirely, partially, or not at all.  
+There is some starter code in the template that you are strongly encouraged to use. If you do not use it, the TAs and I will not help you.  
 In any case, if you follow the instructions, you should get the same results I do._
 
 a) Read in the Shakespeare corpus ignoring the header lines, skipping the attribution lines and ignoring the ending line. The attribution paragraphs start with `<<` and end with`>>`.  
