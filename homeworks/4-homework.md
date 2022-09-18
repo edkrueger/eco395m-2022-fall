@@ -17,7 +17,11 @@ You'll analyze the word frequencies of the complete works of William Shakespeare
 When grading this problem, we'll execute the code by cloning your repo, running `cd eco395m-homework-shakespeare` to open your repository and running `python3 code/shakespeare.py`. This will execute the code on the `main` branch.  
 Depending on your Python installation, you may need to run it with `python3 code/shakespeare.py`.  
 Because Python paths are relative to the location the _script is executed from_, it is essential to follow this instruction for execution.  
-If your code does not execute properly with this command, it will be considered incomplete.  
+
+
+If your code does not execute properly with this command, it will be considered incomplete, and you will receive a 0.  
+If your code takes over 60 seconds to execute on my computer, it will be considered incomplete, and you will receive a 0. For context, my solution takes under 1 second to run.  
+
 We'll check for a CSV file called `shakespeare_report.csv` at the location, relative to the top level of the repo, of `artifacts/shakespeare_report.csv`.  
 
 The expectation is that your code generates the output when we run it, not just that the file exists. This means that if the code does not run, you will recieve a 0.  
