@@ -37,7 +37,7 @@ _For more realistic problems like this one, there are often many different ways 
 There is some starter code in the template that you can decide to use entirely, partially, or not at all.  
 In any case, if you follow the instructions, you should get the same results I do._
 
-a) Read in the Shakespeare corpus ignoring the header lines, skipping the attribution lines and ignoring the ending line.
+a) Read in the Shakespeare corpus ignoring the header lines, skipping the attribution lines and ignoring the ending line. The attribution paragraphs start with `<<` and end with`>>`.  
 
 b) Import the `re` module. The `re` module is a Python module for Regular Expressions or Regex.
 Regex is a language used to find text, extract text and make substitutions efficiently. Its a very useful skill to have for NLP, text analytics and programming in general.
