@@ -17,7 +17,11 @@ You'll analyze the word frequencies of the complete works of William Shakespeare
 When grading this problem, we'll execute the code by cloning your repo, running `cd eco395m-homework-shakespeare` to open your repository and running `python3 code/shakespeare.py`. This will execute the code on the `main` branch.  
 Depending on your Python installation, you may need to run it with `python3 code/shakespeare.py`.  
 Because Python paths are relative to the location the _script is executed from_, it is essential to follow this instruction for execution.  
-If your code does not execute properly with this command, it will be considered incomplete.  
+
+
+If your code does not execute properly with this command, it will be considered incomplete, and you will receive a 0.  
+If your code takes over 60 seconds to execute on my computer, it will be considered incomplete, and you will receive a 0. For context, my solution takes under 1 second to run.  
+
 We'll check for a CSV file called `shakespeare_report.csv` at the location, relative to the top level of the repo, of `artifacts/shakespeare_report.csv`.  
 
 The expectation is that your code generates the output when we run it, not just that the file exists. This means that if the code does not run, you will recieve a 0.  
@@ -34,10 +38,10 @@ In particular, do not use Pandas for this assignment.
 The point of these exercises is to learn Python and some of its standard library.  
 
 _For more realistic problems like this one, there are often many different ways to implement the same requirements.
-There is some starter code in the template that you can decide to use entirely, partially, or not at all.  
+There is some starter code in the template that you are strongly encouraged to use. If you do not use it, the TAs and I will not help you.  
 In any case, if you follow the instructions, you should get the same results I do._
 
-a) Read in the Shakespeare corpus ignoring the header lines, skipping the attribution lines and ignoring the ending line.
+a) Read in the Shakespeare corpus ignoring the header lines, skipping the attribution lines and ignoring the ending line. The attribution paragraphs start with `<<` and end with`>>`.  
 
 b) Import the `re` module. The `re` module is a Python module for Regular Expressions or Regex.
 Regex is a language used to find text, extract text and make substitutions efficiently. Its a very useful skill to have for NLP, text analytics and programming in general.

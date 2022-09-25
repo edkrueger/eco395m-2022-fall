@@ -3,66 +3,66 @@ You must have a _private_ repository with the name specified. You must also add 
 
 ## Problem 0 - (0 points)
 
-You'll clone a repo that has the datasets, some structure and some (very minimal) starter code.  
+You'll request data about groundwater from the USGS's groundwater REST service for the summer of 2022. Click (here)[https://waterservices.usgs.gov/rest/GW-Levels-Service.html] for the documentation -- you'll need it.
 
-a) Go to the repo: https://github.com/edkrueger/eco395m-homework-election    
+You'll clone a repo some starter code.  
 
-b) Select "Use this template" and create a _private_ repository with the name "eco395m-homework-election".  
+a) Go to the repo: https://github.com/edkrueger/eco395m-homework-groundwater  
 
-c) Select "Settings>Collaborators>" and add "edkrueger", "ericschulman" and "mynameisphatcao" as collaborators.    
+b) Select "Use this template" and create a _private_ repository with the name "eco395m-homework-groundwater".  
 
-## Problem 1 - (50 points)
-You'll aggregate 2020 county-level election results into state-level results.
+c) Select "Settings>Collaborators>" and add "edkrueger" and the TAs as collaborators.
 
-When grading this problem, we'll execute the code by cloning your repo, running `cd eco395m-homework-election` to open your repository and running `python3 code/election_2020.py`. This will execute the code on the `main` branch.  
+## Problem 1 - (100 points)
+You'll scrape the endpoint mentioned above, collecting the following fields: 
 
-Depending on your Python installation, you may need to run it with `python code/election_2020.py`.  
+| Field | Type | Example |
+| - | - | - |
+| "variable_name" | str | "Depth to water level, ft below land surface" |
+| "site_name" | str | "AS-69-23-402 (Hondo Canyon)" |
+| "datetime" | str) (ISO 8601 datetime ) | "2022-07-27 14:40:00" |
+| "value" | float | 247.68 |
+| "longitude" | float | -98.5955556 |
+| "latitude" | float | 29.49527778 |
+
+You'll request the data from the endpoint for the state of Texas for the Summer of 2022 in a JSON format. Summer 2022 is between June 21st and September 22nd, inclusive.
+
+You'll extract the fields referenced and create rows for each value.
+
+You'll sort the rows lexicographically by `variable_name`, `site_name`, and then `datetime`.
+ 
+You'll write the data to a CSV.
+
+When grading this problem, we'll execute the code by cloning your repo, running `cd eco395m-homework-groundwater` to open your repository and running `python code/scrape.py`.
+
+Your code will be executed in a Python environment containing only the Standard Library and the packages specified in `requirements.txt`. Install them with `pip install -r requirements.txt`.   
+
 Because Python paths are relative to the location the _script is executed from_, it is essential to follow this instruction for execution.  
 If your code does not execute properly with this command, it will be considered incomplete.  
-We'll check for a CSV file called `election_report.csv` at the location, relative to the top level of the repo, of `artifacts/election_report.csv`.  
+We'll check for a CSV file called `results.csv` at the location, relative to the top level of the repo, of `artifacts/results.csv`.
 
 The expectation is that your code generates the output when we run it, not just that the file exists. This means that if the code does not run, you will receive a 0.  
 
-You'll get 20 points if the generated CSV follows the format specified in `artifacts/example_election_report.csv`. In particular, this means that the CSV must have the same header as the example. If it does not, you will receive a 0.  
+We also expect that your code executes in under 1 minute; if it does not, you will receive a 0. For context, my code executes in under 1/5th of a second.  
 
-You'll get 10 points if the CSV is in the correct order.
-We'll spot-check your CSV's word counts for 3 state/candidate combinations. If their counts all match the example exactly, you'll get 20 points. Otherwise, if they are all within +/- 20% of the example's counts, you'll get 10 points, but we'll have to have a recount. Data is real election data, so you can verify your results against the actual outcomes.
+You'll get 20 points if the generated CSV follows the format specified in `artifacts/example_results.csv`. In particular, the CSV must have the same header as the example. If it does not, you will receive a 0 for this part.  
 
-Do not import any modules _other than modules found in the [Python Standard Library](https://docs.python.org/3/library/)_ for this problem; if you do, You will receive a 0 for this problem.  
-In particular, do not use Pandas for this problem.  
-The point of this problem is to learn Python and some of its standard library.  
+You'll get 20 additional points if your CSV contains at least as many rows as mine does.  
 
-_For more realistic problems like this one, there are often many different ways to implement the same requirements.
-There is some starter code in the template that you can decide to use entirely, partially, or not at all.  
-In any case, if you follow the instructions, you should get the same results I do._
+We'll spot-check 3 of your CSV's rows for an exact match on all values. If all of the fields checked match exactly for all 3 rows, you'll receive 60 points and 0 points otherwise.  
 
-a) Count the votes for each combination of year, state code and candidate while ignoring years that aren't 2020. (Hint: Any immutable type can be a dictionary key in Python; in particular, this means that tuples can be dictionary keys.)  
-b) Convert your Dictionary to a list of rows containing year, state code, candidate and total votes so that it is ready to sort.  
-c) Sort your list of rows such that the results are in alphabetical order by state code and, for each state, the row are ordered by descending number of votes. In other words, for each state, the candidate with the most votes should appear first. (Hint: There are essentially two approaches to this part. One approach to this problem is to take advantage of the fact that the sort that the `sorted` function uses is a stable sort. A stable sort is a sort that preserves the order of elements where the values of a sort key are the same. Therefore we can sort the list twice, with different keys, to achieve our goal. Another more challenging but potentially more performant option is to create a function that ranks the rows in the correct order and use this as the sort key. This approach is essentially the same as making a utility function that represents safety-first or lexicographical preferences. If you take this approach, note that you can access character codes (which are ordered) for a character with the `ord` function.)  
-d) Write to a CSV file to `artifacts/election_report.csv` with columns "year", "state_code", "candidate" and "votes". For an example, see `artifacts/example_election_report.csv`  
+_You are required to use the starter code. If you don't we will not help you. You don't necessarily need to complete the steps in the order below, but you should follow all of the steps._
 
+a) Figure out the request you have to make in Postman. To minimize USGS's egress costs, allow compression in transit. See the endpoint documentation for more details.  
 
-## Problem 2 - (50 points)
-You'll aggregate 2020 county-level election results into state-level results. But this time with Pandas.  pecifically Pandas 1.3.5, which is on GCP Vertex AI Notebook and we'll use this version to grade.  
+b) Have a look at the response in Postman to understand the structure.  
 
-When grading this problem, we'll execute the code by cloning your repo, running `cd eco395m-homework-election` repository and running `python3 code/pandas_election_2020.py `.  
-Depending on your Python installation, you may need to run it with `python3 code/pandas_election_2020.py`.  
-Because Python paths are relative to the location the _script is executed from_, it is essential to follow this instruction for execution.  
-If your code does not execute properly with this command, it will be considered incomplete.  
-We'll check for a CSV file called `election_report_pandas.csv` at the location, relative to the top level of the repo, of `artifacts/election_report_pandas.csv`.  
-The expectation is that your code generates the output when we run it, not just that the file exists.  
+c) Look at `clean_data.py` and notice that I've left in tests for many of the functions under `if __name__ == "__main__"`. You can also use the sample data in this section to understand what the raw data looks like and what is expected for each function's output.  
 
-You'll get 20 points if the generated CSV follows the format specified in `artifacts/example_election_report.csv`. In particular, this means that the CSV must have the same header as the example. If it does not, you will receive a 0. This means that if the code does not run, you will receive a 0.  
+d) Implement `extract_metadata_from_timeseries`, `extract_metadata_from_timeseries` and `extract_data_from_timeseries` in `clean_data.py`. There is an assertion for each of these functions that will act as a test under `if __name__ == "__main__"`. You can execute them by running `python code/clean_data.py`. If they return an assertion error, then the test failed, and you need to figure out why. This time around, feel free to modify code under `if __name__ == "__main__"` in particular, you may want to add some print statements or some additional tests. When implementing `extract_data_from_timeseries`, note that the dates that come in a response are in a special string format called ISO format. There is a constructor for `datetime` objects that can read this format. You don't need to write your own parser. See the docs for `datetime` (here)[https://docs.python.org/3/library/datetime.html].
 
-You'll get 10 points if the CSV is in the correct order.
-We'll spot-check your CSV's word counts for 3 state/candidate combinations. If their counts all match the example exactly, you'll get 20 points. Otherwise, if they are all within +/- 20% of the example's counts, you'll get 10 points, but we'll have to have a recount. Data is real election data, so you can verify your results against the actual outcomes.
+e) Take your work in (a) and use it to implement `request_raw_data` in `scrape.py`.   
 
-Use Pandas for this problem!
+f) Implement the other functions in `clean_data.py`.  
 
-_For more realistic problems like this one, there are often many different ways to implement the same requirements. That said, it is possible to solve this problem as a single method chain pipe. You are encouraged to do so._
-
-a) Count the votes for each year, state code, candidate combination while ignoring years that aren't 2020.  
-b) Sort your list of rows such that the results are in alphabetical order by state code and, for each state, the row are ordered by descending number of votes. In other words, for each state, the candidate with the most votes should appear first.  
-c) Write to a CSV file to `artifacts/election_report_pandas.csv
-` with columns "year", "state_code", "candidate" and "votes". For an example, see `artifacts/example_election_report.csv`  
-d) You can check that the CSV from this problem is identical to the last one by running `python3 code/compare.py`  
+g) Implement the other functions in `scrape.py`. Note that one way to sort lexicographically is to use a stable sort and start the innermost column sort by it, then sort by the next innermost column, etc. Then, stop when you reach the outermost column. Also, note that the `csv` module knows how to serialize `datetime` objects, so you won't have to do any conversion.
