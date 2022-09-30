@@ -9,7 +9,7 @@ a) Go to the repo: https://github.com/edkrueger/eco395m-homework-bookstoscrape
 
 b) Select "Use this template" and create a _private_ repository with the name "eco395m-homework-bookstoscrape".  
 
-c) Select "Settings>Collaborators>" and add "edkrueger", "ericschulman" and "mynameisphatcao" as collaborators.  
+c) Select "Settings>Collaborators>" and add "edkrueger" and the TA(s).
 
 ## Problem 1 - (100 points)
 You'll scrape the website http://books.toscrape.com/, collecting the following fields: 
