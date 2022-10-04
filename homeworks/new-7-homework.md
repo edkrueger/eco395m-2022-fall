@@ -1,4 +1,4 @@
-## Homework 5
+## Homework 7
 You must have a _private_ repository with the name specified. You must also add me (edkrueger) and the TAs ([Click here for TA GitHub usernames](/ta-githubs.txt)) as collaborators.  
 
 ## Problem 0 - (0 points)
@@ -9,7 +9,7 @@ a) Go to the repo: https://github.com/edkrueger/eco395m-homework-election
 
 b) Select "Use this template" and create a _private_ repository with the name "eco395m-homework-election".  
 
-c) Select "Settings>Collaborators>" and add "edkrueger", "ericschulman" and "mynameisphatcao" as collaborators.    
+c) Select "Settings>Collaborators>" and add "edkrueger" and the TA(s).  
 
 ## Problem 1 - (50 points)
 You'll aggregate 2020 county-level election results into state-level results.
