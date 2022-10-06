@@ -1,10 +1,16 @@
 # Midterm Project
 
-You’ll work in self assigned groups with 5-7 members. You’ll select a dataset or create a dataset by combining other datasets. Unless you come to me for a specific exemption, don't use only a Kaggle dataset, similarly clean data or a toy dataset. Then you’ll perform an analysis on that dataset. You’ll use a public GitHub repository to organize, record and document your work and your findings. This project will become part of your portfolio – it's public, so you are welcome and encouraged to share it when you are done. You’ll present your work to the class.
+You’ll work in self assigned groups with 3-5 members. You’ll select a dataset or create a dataset by combining other datasets. Unless you come to me for a specific exemption, don't use only a Kaggle dataset, similarly clean data or a toy dataset. Then you’ll perform an analysis on that dataset. You’ll use a public GitHub repository to organize, record and document your work and your findings. This project will become part of your portfolio – it's public, so you are welcome and encouraged to share it when you are done. You’ll present your work to the class.
 
 ## The Report in README.md - (30 points)
 
 The report should cover your data source and your analysis.  
+
+Requirements for reporting about the data:
+* Source(s) of dataset(s) must be clearly documented
+* Data collection methods must be understood and clearly documented. You should read and summarize the documentation of the data, make sure that you understand and document all columns/features that are relevant to your analysis. You should understand and summarize what isn’t in the data too.
+* Limitations of the data must be clearly outlined
+* A discussion of extensions of data that would be required to improve the analysis should be included
 
 Requirements for reporting your analysis:
 * The goal of the analysis is must be clearly articulated
@@ -15,19 +21,13 @@ Requirements for reporting your analysis:
 * Extensions of your analysis or areas for more research must be included in your report
 * You should not include analysis, plots, discoveries, that aren’t directly related to your findings – you can put them as an appendix in another file if you like
 
-Requirements for reporting about the data:
-* Source(s) of dataset(s) must be clearly documented
-* Data collection methods must be understood and clearly documented. You should read and summarize the documentation of the data, make sure that you understand and document all columns/features that are relevant to your analysis. You should understand and summarize what isn’t in the data too.
-* Limitations of the data must be clearly outlined
-* A discussion of extensions of data that would be required to improve the analysis should be included
-
 ## Reproducibility - (20 points)
 
 Your work must be reproducible. This means that anyone should be able to follow your instructions to run your code on your data and get the same results you do.  
 
 Requirements for reproducibility:
 * Instructions to rerun that analysis must be included in the README.md
-* The analysis must run in a GCP Vertex AI Notebook
+* ~The analysis must run in a GCP Vertex AI Notebook~ (removed for Fall 2022)
 * Additional packages should be included in `requirements.txt`
 * All data cleaning must be reproducible through code – data must not be manually modified (i.e. no modifications in Excel)
 * Must use relative paths
@@ -62,17 +62,17 @@ Requirements for the repo:
 
 ## Presentation - (10 points)
 
-Presentations will be in class on Tuesday, March 22nd, 3:30pm-5:00pm CT.  
+Presentations will be in class on the day specified in the syllabus.  
 
 Requirements for the presentation:
 * You must test your setup in BRB 1.118 before the day of presentations, problems during the setup will cut into your presentations and affect your grade.
-* The presentation must be around 3 minutes – we’ll cut you off if it isn’t.
+* The presentation must be around 6 minutes – we’ll cut you off if it isn’t.
 * The presentation should primarily focus on your goal, methodology, findings, limitations and potential extensions.
 * You should limit your discussion of packages or techniques, whether related to the code or otherwise, to things that your classmates would not already know either from in class or their training as Economists.
 * You may and probably should delegate a single person to present – you whole group should collaborate in designing and rehearsing the presentation.
-* You’ll have 2 minutes of Q&A with the class and I.
+* You’ll have 3 minutes of Q&A with the class and I.
 
 ## Individual Requirements - (20 points)
-* You must solve at least two meaningful issues
-* You make at least 5 meaningful commits
+* You must solve at least two meaningful (GitHub) issues
+* You make at least 5 meaningful commits that contribute _code_ to the repo
 * You must attend your group’s presentation and all others
