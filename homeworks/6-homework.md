@@ -9,7 +9,7 @@ a) Go to the repo: https://github.com/edkrueger/eco395m-homework-bookstoscrape
 
 b) Select "Use this template" and create a _private_ repository with the name "eco395m-homework-bookstoscrape".  
 
-c) Select "Settings>Collaborators>" and add "edkrueger", "ericschulman" and "mynameisphatcao" as collaborators.  
+c) Select "Settings>Collaborators>" and add "edkrueger" and the TA(s).
 
 ## Problem 1 - (100 points)
 You'll scrape the website http://books.toscrape.com/, collecting the following fields: 
@@ -37,7 +37,7 @@ We'll check for a CSV file called `results.csv` at the location, relative to the
 We'll also check for a JSONL file called `results.jsonl` at the location, relative to the top level of the repo, of `artifacts/results.jsonl`.
 
 The expectation is that your code generates the output when we run it, not just that the file exists. This means that if the code does not run, you will receive a 0.  
-We also expect that your code executes in under 5 minutes, if it does not, you will receive a 0.  
+We also expect that your code executes in under 10 minutes, if it does not, you will receive a 0.  
 
 You'll get 10 points if the generated CSV follows the format specified in `artifacts/example_results.csv`. In particular, this means that the CSV must have the same header as the example. If it does not, you will receive a 0 for this part.  
 You'll get 10 points if the generated JSONL follows the format specified in `artifacts/example_results.jsonl`. In particular, this means that the CSV must have the same fieldnames as the example. If it does not, you will receive a 0 for this part. Note, that since JSONL lines are JSON Objects, they are considered unstructured, so the order in which the key-value pairs appear does not matter.  

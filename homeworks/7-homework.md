@@ -1,46 +1,68 @@
-# Homework 7
+## Homework 7
 You must have a _private_ repository with the name specified. You must also add me (edkrueger) and the TAs ([Click here for TA GitHub usernames](/ta-githubs.txt)) as collaborators.  
 
 ## Problem 0 - (0 points)
-You'll clone a repo with several SQL exercises.
 
-a) Go to the repo: https://github.com/edkrueger/eco395m-homework-chinook  
+You'll clone a repo that has the datasets, some structure and some (very minimal) starter code.  
 
-b) Select "Use this template" and create a _private_ repository with the name "eco395m-homework-chinook".  
+a) Go to the repo: https://github.com/edkrueger/eco395m-homework-election    
 
-c) Select "Settings>Collaborators>" and add "edkrueger"and the TA(s) as collaborators.  
+b) Select "Use this template" and create a _private_ repository with the name "eco395m-homework-election".  
 
-## Problem 1 - (0 points)
+c) Select "Settings>Collaborators>" and add "edkrueger" and the TA(s).  
 
-You'll make a database instance and a database, then you will connect to it with DBeaver (or another SQL client of your choice) and run a script to create and load the tables. You'll also configure the environmental variables so that the checker, written in Python, can execute SQL against your database.
+## Problem 1 - (50 points)
+You'll aggregate 2020 county-level election results into state-level results.
 
-a) Make a database instance as we did in class. If you've already done this, you can use the one you already have. Go to GCP SQL and create a PostgreSQL 13 database instance. Make sure that you whitelist the IPs in block 0.0.0.0/0. Picking the lowest spec for this instance will be sufficient for this problem. Save your password!  
+When grading this problem, we'll execute the code by cloning your repo, running `cd eco395m-homework-election` to open your repository and running `python3 code/election_2020.py`. This will execute the code on the `main` branch.  
 
-b) Use GCP SQL to create a database called `chinook`. You can do this in the "Databases" tab.
+Depending on your Python installation, you may need to run it with `python code/election_2020.py`.  
+Because Python paths are relative to the location the _script is executed from_, it is essential to follow this instruction for execution.  
+If your code does not execute properly with this command, it will be considered incomplete.  
+We'll check for a CSV file called `election_report.csv` at the location, relative to the top level of the repo, of `artifacts/election_report.csv`.  
 
-c) Connect to your database with DBeaver. Your host can be found in GCP SQL on the "Overview" tab. The port will be the default Postgres port: `5432`. You can use the default postgres username, `postgres`, and the password you set in the last step. Connect with database as `chinook`.
+The expectation is that your code generates the output when we run it, not just that the file exists. This means that if the code does not run, you will receive a 0.  
 
-d) In DBeaver, Navigate to "chinook" > "Databases" > "chinook". Right-click the database `chinook` -- its the one that looks like a silo. Then select "SQL Editor" > "New SQL Script".
+You'll get 20 points if the generated CSV follows the format specified in `artifacts/example_election_report.csv`. In particular, this means that the CSV must have the same header as the example. If it does not, you will receive a 0.  
 
-f) Copy the code in `setup/chinook.sql` into you SQL editor and execute it.
+You'll get 10 points if the CSV is in the correct order.
+We'll spot-check your CSV's word counts for 3 state/candidate combinations. If their counts all match the example exactly, you'll get 20 points. Otherwise, if they are all within +/- 20% of the example's counts, you'll get 10 points, but we'll have to have a recount. Data is real election data, so you can verify your results against the actual outcomes.
 
-e) Before you can run the checker, you must give it the right credentials to connect to your database. Copy the file `demo.env` to `.env` and modify it by providing the credentials you found in step (c). An easy way to do this is to run `cp demo.env .env` and then modify the file.  
+Do not import any modules _other than modules found in the [Python Standard Library](https://docs.python.org/3/library/)_ for this problem; if you do, You will receive a 0 for this problem.  
+In particular, do not use Pandas for this problem.  
+The point of this problem is to learn Python and some of its standard library.  
 
-f) Run the checker by running `python code/checker.py`. If you've configured everything properly, you'll see an error like `can't execute an empty query` because your queries haven't been written yet. If your connection configuration is incorrect you receive an error message like `connection to server at "123.456.789.101", port 5432 failed: FATAL:  password authentication failed for user "postgres"`.
+_For more realistic problems like this one, there are often many different ways to implement the same requirements.
+There is some starter code in the template that you can decide to use entirely, partially, or not at all.  
+In any case, if you follow the instructions, you should get the same results I do._
 
-## Problem 2 - (100 points)
-You'll solve the SQL problems in `code/queries.py`. You can check your answers by running `python code/check.py`.
+a) Count the votes for each combination of year, state code and candidate while ignoring years that aren't 2020. (Hint: Any immutable type can be a dictionary key in Python; in particular, this means that tuples can be dictionary keys.)  
+b) Convert your Dictionary to a list of rows containing year, state code, candidate and total votes so that it is ready to sort.  
+c) Sort your list of rows such that the results are in alphabetical order by state code and, for each state, the row are ordered by descending number of votes. In other words, for each state, the candidate with the most votes should appear first. (Hint: There are essentially two approaches to this part. One approach to this problem is to take advantage of the fact that the sort that the `sorted` function uses is a stable sort. A stable sort is a sort that preserves the order of elements where the values of a sort key are the same. Therefore we can sort the list twice, with different keys, to achieve our goal. Another more challenging but potentially more performant option is to create a function that ranks the rows in the correct order and use this as the sort key. This approach is essentially the same as making a utility function that represents safety-first or lexicographical preferences. If you take this approach, note that you can access character codes (which are ordered) for a character with the `ord` function.)  
+d) Write to a CSV file to `artifacts/election_report.csv` with columns "year", "state_code", "candidate" and "votes". For an example, see `artifacts/example_election_report.csv`  
 
-When grading this problem...  
 
-When grading this problem, we'll execute the code by cloning your repo, running `cd eco395m-homework-chinook` to open your repository and running `python3 code/queries.py`. This will execute the code on the `main` branch.  
+## Problem 2 - (50 points)
+You'll aggregate 2020 county-level election results into state-level results. But this time with Pandas.  pecifically Pandas 1.3.5, which is on GCP Vertex AI Notebook and we'll use this version to grade.  
 
-100 points will be awarded in proportion to the number of exercises you successfully solve. An exercise will be successfully solved if your solution passes all of the cases. A solution that does not pass all of the cases will not be considered successfully solved.  
+When grading this problem, we'll execute the code by cloning your repo, running `cd eco395m-homework-election` repository and running `python3 code/pandas_election_2020.py `.  
+Depending on your Python installation, you may need to run it with `python3 code/pandas_election_2020.py`.  
+Because Python paths are relative to the location the _script is executed from_, it is essential to follow this instruction for execution.  
+If your code does not execute properly with this command, it will be considered incomplete.  
+We'll check for a CSV file called `election_report_pandas.csv` at the location, relative to the top level of the repo, of `artifacts/election_report_pandas.csv`.  
+The expectation is that your code generates the output when we run it, not just that the file exists.  
 
-_You are allowed to skip up to 2 exercises. There are 12 exercises in total. So, submissions with at least 10 successfully solved exercises will receive all 100 points._  
+You'll get 20 points if the generated CSV follows the format specified in `artifacts/example_election_report.csv`. In particular, this means that the CSV must have the same header as the example. If it does not, you will receive a 0. This means that if the code does not run, you will receive a 0.  
 
-a) For each exercise in `queries.py`. Develop your solution in DBeaver and when you believe it is correct, copy it and paste it into the triple-quoted string under the exercise in `queries.py`. Check your solution by running `python code/check.py`, modify your code as needed and try again. (Hint: If you are confused about a test case, feel free to _read_ the test code -- just don't modify the test code!)  
-b) Repeat for the other exercises.
+You'll get 10 points if the CSV is in the correct order.
+We'll spot-check your CSV's word counts for 3 state/candidate combinations. If their counts all match the example exactly, you'll get 20 points. Otherwise, if they are all within +/- 20% of the example's counts, you'll get 10 points, but we'll have to have a recount. Data is real election data, so you can verify your results against the actual outcomes.
 
-_Do not modify the code in `check.py`. Do not hard code solutions to test cases in your queries. These will be considered academic dishonesty, and you will receive a 0 for this homework._  
-_Do not import anything or write any code other than the SQL in the query strings in `query.py`. You will receive a 0 for this homework if you do. The point of these exercises is to learn SQL._  
+Use Pandas for this problem!
+
+_For more realistic problems like this one, there are often many different ways to implement the same requirements. That said, it is possible to solve this problem as a single method chain pipe. You are encouraged to do so._
+
+a) Count the votes for each year, state code, candidate combination while ignoring years that aren't 2020.  
+b) Sort your list of rows such that the results are in alphabetical order by state code and, for each state, the row are ordered by descending number of votes. In other words, for each state, the candidate with the most votes should appear first.  
+c) Write to a CSV file to `artifacts/election_report_pandas.csv
+` with columns "year", "state_code", "candidate" and "votes". For an example, see `artifacts/example_election_report.csv`  
+d) You can check that the CSV from this problem is identical to the last one by running `python3 code/compare.py`  

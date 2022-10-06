@@ -56,7 +56,7 @@ e) Normalize all whitespace to single spaces with `text_with_only_spaces = re.su
 
 f) Convert your cleaned text into a list of one-word strings.  
 
-g) Read in the stopwords and apply the same cleaning to them as you did to the other text.  
+g) Read in the stopwords and apply the same cleaning (including the regex above) to them as you did to the other text.  
 
 h) Count the number of times that each word _that is not a stopword_ appears.  Don't count the stopwords.  
 
