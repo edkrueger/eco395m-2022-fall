@@ -70,7 +70,7 @@ Requirements for the presentation:
 * The presentation should primarily focus on your goal, methodology, findings, limitations and potential extensions.
 * You should limit your discussion of packages or techniques, whether related to the code or otherwise, to things that your classmates would not already know either from in class or their training as Economists.
 * You may delegate a single person to present – you whole group should collaborate in designing and rehearsing the presentation.
-* You’ll have 6 minutes of Q&A with the class and I.
+* You’ll have (up to) 6 minutes of Q&A with the class and I.
 
 ## Individual Requirements - (20 points)
 * You must solve at least two meaningful (GitHub) issues
