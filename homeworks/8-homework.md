@@ -26,7 +26,7 @@ f) Copy the code in `setup/chinook.sql` into you SQL editor and execute it.
 
 e) Before you can run the checker, you must give it the right credentials to connect to your database. Copy the file `demo.env` to `.env` and modify it by providing the credentials you found in step (c). An easy way to do this is to run `cp demo.env .env` and then modify the file.  
 
-f) Run the checker by running `python code/checker.py`. If you've configured everything properly, you'll see an error like `can't execute an empty query` because your queries haven't been written yet. If your connection configuration is incorrect you receive an error message like `connection to server at "123.456.789.101", port 5432 failed: FATAL:  password authentication failed for user "postgres"`.
+f) Run the checker by running `python code/check.py`. If you've configured everything properly, you'll see an error like `can't execute an empty query` because your queries haven't been written yet. If your connection configuration is incorrect you receive an error message like `connection to server at "123.456.789.101", port 5432 failed: FATAL:  password authentication failed for user "postgres"`.
 
 ## Problem 2 - (100 points)
 You'll solve the SQL problems in `code/queries.py`. You can check your answers by running `python code/check.py`.
