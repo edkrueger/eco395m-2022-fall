@@ -1,6 +1,6 @@
 # Final Project 
 
-You’ll work in self-assigned groups with 3-6 members. (If there are too many small groups, I may have to merge them or adjust presentation times.)
+You’ll work in self-assigned groups with 3-7 members. (If there are too many small groups, I may have to merge them or adjust presentation times.)
 
 You'll use a database. You'll select a topic and data sources to load into a database. This may take the form of ETL with a Python, Pandas, or other script, directly loading CSVs or other files into Postgres or BigQuery, or using a database to store results of web or API scraping. Other uses could be acceptable, such as building an app to load data into and from a database or using a database as a way of caching scientific computations.
 
