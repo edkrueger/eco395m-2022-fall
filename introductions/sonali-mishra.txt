@@ -1,0 +1,5 @@
+Hi, I am Sonali and I am from India. I have worked at the India Parliament (Policy) and at Amazon (data). 
+The intersection of these two fields drewe me to economics i.e to be able to answer policy questions and understand its causation. 
+Over the last 5 years I have realised the power of refining data to get theright result. 
+Something that I have been interested in for quite sometime is the interaction of machine learning techniques with econometrics. 
+Somethings I looking forward to from this class is Web Scrapping models.
